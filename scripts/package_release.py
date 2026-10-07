@@ -14,6 +14,11 @@ REQUIRED_FILES = ['README.md', 'LICENSE', 'THIRD_PARTY_NOTICES.md',
     'package.json', 'package-lock.json', 'pyproject.toml', 'uv.lock', '.python-version', '.nvmrc',
     '.gitignore', 'index.html', 'design/index.html', 'vite.config.ts', 'playwright.config.ts',
     'demo/index.html', 'vite.demo.config.ts', 'playwright.demo.config.ts', 'scripts/build_demo.mjs',
+    'src/demo/MarketPulse.tsx', 'src/demo/RebalancePanel.tsx', 'src/demo/PulseChart.tsx',
+    'src/demo/AllocationEditor.tsx', 'src/demo/allocationDraft.ts', 'src/demo/allocation.css',
+    'src/demo/MarketEmbed.tsx', 'src/demo/replayFeed.ts', 'src/demo/market.css', 'src/demo/marketEmbed.css',
+    'src/demo/market-catalog.json', 'src/demo/market-universe.json', 'src/engine/transition.ts',
+    'scripts/update-market-catalog.mjs',
     'tsconfig.json', 'wrangler.jsonc',
     'public/fonts/RebalanceSansSC-Regular.ttf', 'public/fonts/OFL.txt', 'public/fonts/manifest.json',
     'public/sbom/runtime.cdx.json', 'licenses/sbom/development.cdx.json',
@@ -25,8 +30,8 @@ REQUIRED_FILES = ['README.md', 'LICENSE', 'THIRD_PARTY_NOTICES.md',
     'scripts/verify_archive.py', 'scripts/verify_worker.mjs',
     'oracle/fixtures.json', 'oracle/legacy-fixture.json', 'oracle/expanded-50-fixture.json']
 DOCS = ['USER_TEST_PROTOCOL.md', 'DATA_FORMATS.md', 'PROVIDERS.md', 'PRIVACY.md', 'REFERENCES.md',
-    'METHODS.md', 'DEPLOYMENT.md', 'DEMO_AND_TECHNICAL_GUIDE.md', 'AI_QUICKSTART.md']
-PUBLIC_MEDIA = ['terminal-overview.png', 'terminal-risk.png', 'terminal-holdings.png', 'terminal-preview.gif']
+    'METHODS.md', 'DEPLOYMENT.md', 'DEMO_AND_TECHNICAL_GUIDE.md', 'AI_QUICKSTART.md', 'market-data-modes.md', 'MARKET_PULSE.md', 'MARKET_PULSE_VALIDATION.md']
+PUBLIC_MEDIA = ['terminal-overview.png', 'terminal-risk.png', 'terminal-holdings.png', 'terminal-preview.gif', 'market-pulse.png', 'transition-lab.png', 'market-pulse-mobile.png', 'market-pulse.gif']
 ORACLE_FILES = ['README.md', 'generate.py', 'generate_expanded.py', 'test_regeneration.py',
     'fixtures.json', 'legacy-fixture.json', 'expanded-50-fixture.json',
     'verify_local_market.py', 'verify_local_market.mjs', 'browser-performance.mjs', 'browser-performance.md']

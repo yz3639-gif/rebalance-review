@@ -2,7 +2,7 @@
 import { chromium } from '@playwright/test';
 import { mkdir, writeFile } from 'node:fs/promises';
 
-const url = process.env.DEMO_MEDIA_URL || 'http://127.0.0.1:8790/rebalance-review/';
+const url = process.env.DEMO_MEDIA_URL || 'http://127.0.0.1:4175/rebalance-review/';
 const out = 'docs/media';
 const frames = 'tmp/demo-media-frames';
 await mkdir(out, { recursive: true });
@@ -29,6 +29,7 @@ const frame = async () => {
 };
 try {
   await page.goto(url);
+  await page.getByRole('button', {name: 'Research', exact: true}).click();
   await page.getByRole('region', { name: 'Snapshot metrics', exact: true }).waitFor();
   await page.getByText('DETERMINISTIC SYNTHETIC DATA', { exact: true }).waitFor();
   await page.evaluate(() => document.fonts.ready);

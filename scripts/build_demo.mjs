@@ -9,6 +9,7 @@ const run = (script, args = []) => new Promise((resolve, reject) => {
   child.once('error', reject);
   child.once('exit', (code, signal) => code === 0 ? resolve() : reject(new Error(`${script} exited ${signal || code}`)));
 });
+await run('scripts/update-market-catalog.mjs', ['--check']);
 await run('node_modules/typescript/bin/tsc', ['-b']);
 await run('scripts/prepare_notices.mjs');
 await run('node_modules/vite/bin/vite.js', ['build', '--config', 'vite.demo.config.ts']);

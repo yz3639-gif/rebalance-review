@@ -1,0 +1,356 @@
+/* Direct editing is shared by Pulse, the market view and the expanded lab. */
+.mp-allocation-editor {
+  margin: 18px 0 0;
+  min-width: 0;
+}
+.mp-editor-title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 8px;
+  color: #c9d7dd;
+  font: 10px var(--mp-mono);
+  letter-spacing: 0.7px;
+  margin-bottom: 8px;
+}
+.mp-editor-title small {
+  color: #a0b3bd;
+  letter-spacing: 0;
+  margin-left: 8px;
+}
+.mp-allocation-editor button {
+  cursor: pointer;
+}
+.mp-editor-title button,
+.mp-weight-table button,
+.mp-add-asset > button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background: transparent;
+  border: 1px solid transparent;
+  color: #adc0cb;
+  border-radius: 3px;
+  padding: 5px;
+  min-height: 28px;
+}
+.mp-allocation-editor button:hover {
+  color: #eaf5fa;
+  background: #26363f;
+}
+.mp-allocation-editor button:disabled {
+  opacity: 0.45;
+  cursor: default;
+}
+.mp-weight-scroll {
+  overflow: auto;
+  max-height: 330px;
+  border: 1px solid #34454e;
+  border-radius: 4px;
+  scrollbar-width: thin;
+  scrollbar-color: #536970 #121e24;
+}
+.mp-weight-table {
+  width: 100%;
+  border-collapse: collapse;
+  table-layout: fixed;
+  font: 12px var(--mp-mono);
+}
+.mp-weight-table thead {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  background: #17262e;
+}
+.mp-weight-table th,
+.mp-weight-table td {
+  padding: 4px 8px;
+  text-align: left;
+  border-bottom: 1px solid #293a43;
+}
+.mp-weight-table th:first-child {
+  width: 30%;
+  color: #d2dfe5;
+}
+.mp-weight-table th:nth-child(2) {
+  color: #a7c2ff;
+}
+.mp-weight-table th:nth-child(3) {
+  color: #81dfce;
+}
+.mp-weight-table th:last-child,
+.mp-weight-table td:last-child {
+  width: 32px;
+  padding: 2px;
+  text-align: center;
+}
+.mp-weight-table thead th {
+  font-size: 11px;
+  font-weight: 500;
+  padding-block: 8px;
+}
+.mp-weight-table thead small {
+  font-size: 9px;
+  font-weight: 400;
+}
+.mp-weight-table tbody th {
+  font-weight: 500;
+}
+.mp-weight-table input {
+  display: block;
+  width: 100%;
+  min-width: 0;
+  border: 1px solid #415762;
+  border-radius: 3px;
+  background: #0b161c;
+  color: #ebf3f8;
+  padding: 6px 7px;
+  text-align: right;
+  font: 12px var(--mp-mono);
+}
+.mp-weight-table input[aria-invalid="true"] {
+  border-color: #efaa96;
+  color: #ffd5c9;
+}
+.mp-weight-totals {
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+  padding: 9px 4px;
+  font: 11px var(--mp-mono);
+  border-bottom: 1px solid #34454e;
+}
+.mp-weight-totals span {
+  display: flex;
+  gap: 10px;
+}
+.mp-weight-totals .is-complete {
+  color: #9ce2c5;
+}
+.mp-weight-totals .is-incomplete {
+  color: #f4baa7;
+}
+.mp-cash-actions {
+  display: flex;
+  justify-content: space-between;
+  gap: 8px;
+  padding: 6px 0;
+}
+.mp-cash-actions button {
+  padding: 4px 2px;
+  color: #afc9dc;
+  background: none;
+  border: 0;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  font-size: 10px;
+}
+.mp-add-asset {
+  display: flex;
+  align-items: center;
+  border: 1px solid #415762;
+  border-radius: 4px;
+  background: #0e191f;
+  padding: 2px 4px 2px 8px;
+  gap: 5px;
+}
+.mp-add-asset input {
+  width: 100%;
+  min-width: 0;
+  color: #dceaf0;
+  background: transparent;
+  border: 0;
+  padding: 7px 0;
+  font-size: 11px;
+}
+.mp-add-asset input::placeholder {
+  color: #a5bac4;
+}
+.mp-add-results {
+  display: flex;
+  flex-direction: column;
+  margin-top: 5px;
+  border: 1px solid #3c505d;
+  border-radius: 4px;
+  background: #13212a;
+  max-height: 210px;
+  overflow: auto;
+}
+.mp-add-results > button {
+  display: flex;
+  align-items: baseline;
+  gap: 8px;
+  padding: 8px;
+  text-align: left;
+  border: 0;
+  border-bottom: 1px solid #2d414c;
+  color: #cee2ef;
+  background: none;
+  font-size: 11px;
+}
+.mp-add-results > button span {
+  min-width: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  color: #a9bfc9;
+}
+.mp-add-results p,
+.mp-editor-notice {
+  font-size: 10px;
+  line-height: 1.6;
+  color: #b4ccd7;
+  padding: 6px 0;
+  overflow-wrap: anywhere;
+}
+.mp-add-results p {
+  padding-inline: 8px;
+}
+.mp-allocation-invalid,
+.mp-risk-unavailable {
+  margin: 14px 0;
+  padding: 10px 12px;
+  border: 1px solid #675448;
+  border-radius: 4px;
+  background: #2a231b;
+  color: #efcfad;
+  font-size: 11px;
+  line-height: 1.65;
+  overflow-wrap: anywhere;
+}
+.mp-allocation-invalid strong {
+  display: block;
+  margin-bottom: 4px;
+  color: #f2dec1;
+}
+.mp-rebalance-compact .mp-weight-scroll {
+  max-height: 244px;
+}
+/* Let the default basket fit native input metrics in every browser. Larger
+   baskets retain their bounded scroller; no assumed per-row pixel height. */
+.mp-rebalance .mp-weight-scroll.mp-weights-short {
+  max-height: none;
+}
+.mp-rebalance-compact .mp-weight-table th,
+.mp-rebalance-compact .mp-weight-table td {
+  padding-inline: 4px;
+}
+.mp-rebalance-compact .mp-weight-table th:first-child {
+  width: 27%;
+}
+.mp-rebalance-compact .mp-weight-table th:last-child,
+.mp-rebalance-compact .mp-weight-table td:last-child {
+  width: 23px;
+  padding: 1px;
+}
+.mp-rebalance-compact .mp-weight-table thead small {
+  display: none;
+}
+.mp-rebalance-compact .mp-weight-table input {
+  padding: 4px 5px;
+}
+.mp-rebalance-compact .mp-weight-table button {
+  padding: 3px;
+}
+.mp-rebalance-compact .mp-editor-title {
+  font-size: 9px;
+}
+.mp-rebalance-compact .mp-allocation-editor {
+  margin-top: 10px;
+}
+.mp-rebalance-compact .mp-trade-metrics {
+  margin-block: 12px;
+  padding-block: 12px;
+}
+.mp-rebalance-compact .mp-method-note {
+  font-size: 9px;
+}
+.mp-market-edit-layout {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 310px;
+  gap: 16px;
+  align-items: start;
+}
+.mp-market-edit-layout > * {
+  min-width: 0;
+}
+.mp-market-edit-layout .mp-rebalance-compact {
+  height: auto;
+}
+.mp-sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  overflow: hidden;
+  clip-path: inset(50%);
+  white-space: nowrap;
+}
+@media (min-width: 1051px) {
+  .mp-grid {
+    grid-template-columns: 250px minmax(350px, 1fr) 310px;
+  }
+  .mp-grid .mp-watchlist,
+  .mp-grid .mp-chart-panel {
+    height: 100%;
+    min-height: 620px;
+    max-height: 820px;
+  }
+}
+@media (max-width: 1050px) {
+  .mp-rebalance.mp-rebalance-compact {
+    display: flex;
+    gap: 0;
+  }
+  .mp-rebalance-compact > * {
+    grid-area: auto !important;
+  }
+  .mp-market-edit-layout {
+    grid-template-columns: minmax(0, 1fr);
+  }
+  .mp-rebalance-compact .mp-weight-scroll {
+    max-height: 310px;
+  }
+  .mp-rebalance-compact .mp-weight-table thead small {
+    display: inline;
+  }
+  .mp-rebalance-compact .mp-weight-table input {
+    padding: 8px;
+  }
+  .mp-rebalance-compact .mp-trade-metrics {
+    margin-block: 16px;
+    padding-block: 16px;
+  }
+}
+@media (max-width: 760px) {
+  .mp-weight-table input {
+    font-size: 16px;
+  }
+  .mp-weight-table th:last-child,
+  .mp-weight-table td:last-child {
+    width: 26px;
+  }
+  .mp-cash-actions button {
+    min-height: 36px;
+    font-size: 11px;
+  }
+  .mp-editor-title button,
+  .mp-weight-table button,
+  .mp-add-asset > button {
+    min-height: 32px;
+  }
+  .mp-rebalance-compact .mp-weight-table th:first-child {
+    width: 24%;
+  }
+  .mp-rebalance-compact .mp-weight-table th:last-child,
+  .mp-rebalance-compact .mp-weight-table td:last-child {
+    width: 27px;
+  }
+  .mp-add-asset input {
+    font-size: 16px;
+  }
+  .mp-weight-table thead small,
+  .mp-rebalance-compact .mp-weight-table thead small {
+    display: none;
+  }
+}

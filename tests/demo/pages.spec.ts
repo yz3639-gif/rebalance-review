@@ -8,6 +8,7 @@ test('project Pages root calculates five views without providers, storage or bro
   page.on('pageerror', error => failures.push(error.message));
   await page.goto('./');
   await expect(page).toHaveTitle('Rebalance Review — Interactive Portfolio Research');
+  await page.getByRole('navigation', { name: 'Demo workspace' }).getByRole('button', { name: 'Research' }).click();
   await expect(page.getByRole('region', { name: 'Snapshot metrics', exact: true })).toBeVisible();
   await expect(page.getByTestId('history-chart').locator('svg')).toBeVisible();
   await expect(page.locator('.dr-public-note')).toContainText('Generated prices, not live market data');
@@ -39,12 +40,14 @@ test('project Pages root calculates five views without providers, storage or bro
   await expect(page.getByRole('link', { name: 'Back to Rebalance Review', exact: true })).toHaveAttribute('href', '/rebalance-review/');
   await expect(page.getByRole('link', { name: 'Runtime SBOM', exact: true })).toHaveAttribute('href', '/rebalance-review/sbom/runtime.cdx.json');
   await page.getByRole('link', { name: 'Back to Rebalance Review', exact: true }).click();
+  await page.getByRole('navigation', { name: 'Demo workspace' }).getByRole('button', { name: 'Research' }).click();
   await expect(page.getByRole('region', { name: 'Snapshot metrics', exact: true })).toBeVisible();
 });
 
 test('project Pages demo keeps the 50-asset study searchable at phone width', async ({ page }) => {
   await page.setViewportSize({ width: 390, height: 844 });
   await page.goto('./');
+  await page.getByRole('navigation', { name: 'Demo workspace' }).getByRole('button', { name: 'Research' }).click();
   await expect(page.getByRole('region', { name: 'Snapshot metrics', exact: true })).toBeVisible();
   await page.getByRole('combobox', { name: 'Example dataset', exact: true }).selectOption('fifty');
   await expect(page.getByRole('heading', { name: '50-asset allocation study', exact: true })).toBeVisible();

@@ -1,0 +1,90 @@
+.mp-market-embed,.mp-tv-tape{min-width:0;color:#dce5f5;font-family:inherit}
+.mp-market-embed{overflow:hidden;border:1px solid #243247;background:linear-gradient(160deg,#111a29,#0b1019 65%);border-radius:13px}
+.mp-market-header{display:flex;align-items:center;justify-content:space-between;gap:16px;padding:22px 24px 16px}
+.mp-market-kicker{margin:0 0 8px;color:#9daec8;font-size:10px;font-weight:650;letter-spacing:.14em}
+.mp-market-header h2{display:flex;align-items:baseline;gap:14px;margin:0;font-size:28px;letter-spacing:-.03em}
+.mp-market-header h2>span{font-family:'Geist Mono',monospace}
+.mp-market-header h2 small{color:#99aac4;font-size:14px;font-weight:400;letter-spacing:0}
+.mp-market-delay{flex-shrink:0;border:1px solid #66522c;border-radius:5px;padding:6px 8px;color:#e5c683;background:#3b301c55;font:10px 'Geist Mono',monospace;letter-spacing:.05em}
+.mp-market-symbols{display:flex;gap:6px;flex-wrap:nowrap;overflow-x:auto;padding:0 24px 16px;scrollbar-width:thin;scrollbar-color:#3a526c transparent}
+.mp-market-symbols button{flex-shrink:0}
+.mp-market-search-wrap{padding:0 24px 14px}
+.mp-market-search{display:flex;align-items:center;gap:9px;max-width:520px;border:1px solid #31455d;border-radius:7px;background:#0b131f;color:#9bb4d3;padding:0 12px}
+.mp-market-search:focus-within{outline:2px solid #a5c1ff;outline-offset:2px}
+.mp-market-search input{min-width:0;width:100%;height:39px;border:0;outline:none;background:transparent;color:#e0e9f8;font-size:12px;font-family:inherit}
+.mp-market-search input::placeholder{color:#a7b8d0}
+.mp-market-catalog-label{display:block;margin-top:7px;color:#a7b8d0;font:10px 'Geist Mono',monospace}
+.mp-market-results{margin-top:12px;border:1px solid #304157;border-radius:7px;overflow:hidden;background:#0b131f}
+.mp-market-results-heading{display:flex;align-items:center;justify-content:space-between;padding:7px 12px;border-bottom:1px solid #25364b;color:#b5c8e2;font:10px 'Geist Mono',monospace}
+.mp-market-results-heading button{display:flex;border:0;background:transparent;color:#b5c8e2;padding:4px;cursor:pointer}
+.mp-market-results ul{margin:0;padding:0;max-height:245px;overflow-y:auto;list-style:none}
+.mp-market-results li+li{border-top:1px solid #203149}
+.mp-market-results li button{display:grid;grid-template-columns:58px minmax(0,1fr) 15px;gap:10px;align-items:center;width:100%;border:0;background:transparent;padding:12px;color:#d4e2f4;text-align:left;cursor:pointer}
+.mp-market-results li button:hover,.mp-market-results li button[aria-pressed=true]{background:#243955}
+.mp-market-results li button>b{font:12px 'Geist Mono',monospace;color:#b9d2ff}
+.mp-market-results li button>span{font-size:12px;line-height:1.5;overflow-wrap:anywhere}
+.mp-market-results li button small{display:block;color:#a7bad4;font:10px 'Geist Mono',monospace;margin-top:4px}
+.mp-market-results>p{margin:0;padding:16px;color:#bdcce1;font-size:12px;line-height:1.7}
+.mp-market-results button:focus-visible{outline:2px solid #a5c1ff;outline-offset:-3px}
+.mp-market-unknown{min-height:300px;padding:36px 24px;display:flex;align-items:center;justify-content:center;flex-direction:column;gap:12px;border-block:1px solid #304157;text-align:center;color:#afc1da}
+.mp-market-unknown strong{color:#e0e9f8}
+.mp-market-unknown p{max-width:540px;margin:0;font-size:13px;line-height:1.7;overflow-wrap:anywhere}
+.mp-market-symbols button,.mp-tv-status-actions button{border:1px solid #2a3a50;border-radius:6px;background:#121c2a;color:#b5c4dd;font:11px 'Geist Mono',monospace;padding:7px 10px;cursor:pointer;transition:color .15s,border-color .15s,background .15s}
+.mp-market-symbols button:hover{border-color:#7aa2ff;color:#fff}
+.mp-market-symbols button[aria-pressed=true]{background:#7aa2ff21;border-color:#7aa2ff99;color:#b1c9ff}
+.mp-market-symbols button:focus-visible,.mp-market-embed a:focus-visible,.mp-market-embed summary:focus-visible,.mp-tv-widget button:focus-visible,.mp-tv-widget a:focus-visible{outline:2px solid #a5c1ff;outline-offset:3px}
+.mp-tv-tape{background:#0b111b;border-bottom:1px solid #243247}
+.mp-tv-tape-label{display:flex;align-items:center;gap:7px;padding:9px 16px 0;color:#bbd1f5;font:9px 'Geist Mono',monospace;letter-spacing:.12em}
+.mp-tv-tape-label>span{margin-left:auto;color:#adbace;letter-spacing:0}
+.mp-tv-widget{position:relative;min-width:0;background:#0c111b;display:grid;grid-template-rows:minmax(0,1fr) 28px}
+.mp-tv-host{height:100%;min-width:0}
+.mp-tv-host>div{height:100%;min-width:0}
+.mp-tv-host iframe{max-width:100%;border:0}
+.mp-tv-widget--ticker-tape{height:95px;grid-template-rows:minmax(0,1fr) 23px}
+.mp-tv-widget--advanced-chart{height:550px;border-top:1px solid #243247;border-bottom:1px solid #243247}
+.mp-tv-credit{height:28px;padding:0 14px;display:flex;align-items:center;justify-content:space-between;gap:12px;font-size:10px;background:#0c111b}
+.mp-tv-credit a{color:#9bb4da;text-decoration:none}
+.mp-tv-credit a:hover{text-decoration:underline}
+.mp-tv-credit button{display:flex;align-items:center;gap:5px;border:0;background:none;color:#a8b8d0;font:inherit;padding:3px 0;cursor:pointer}
+.mp-tv-widget--ticker-tape .mp-tv-credit{height:23px;font-size:9px}
+.mp-tv-status{position:absolute;inset:0 0 28px;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:12px;background:#0c111b;color:#9daec7;padding:24px;text-align:center;font-size:13px;line-height:1.6}
+.mp-tv-status strong{color:#e0e8f7;font-size:16px}
+.mp-tv-status>span{max-width:440px}
+.mp-tv-status--failed{background:radial-gradient(ellipse at 50% 40%,#142137,#0c111b 70%)}
+.mp-tv-status-actions{display:flex;align-items:center;justify-content:center;gap:14px;flex-wrap:wrap}
+.mp-tv-status-actions button,.mp-tv-status-actions a{display:inline-flex;align-items:center;gap:6px}
+.mp-tv-status-actions a{color:#acc8ff;font-size:12px}
+.mp-tv-loader{width:17px;height:17px;border:2px solid #29364b;border-top-color:#7aa2ff;border-radius:50%;animation:mp-tv-spin .8s linear infinite}
+.mp-tv-widget--ticker-tape .mp-tv-status{inset:0 0 23px;flex-direction:row;padding:8px 16px;gap:9px;font-size:11px}
+.mp-tv-widget--ticker-tape .mp-tv-status strong{font-size:11px}
+.mp-tv-widget--ticker-tape .mp-tv-status--failed>svg,.mp-tv-widget--ticker-tape .mp-tv-status--failed>span{display:none}
+.mp-tv-widget--ticker-tape .mp-tv-status-actions{gap:12px}
+.mp-tv-widget--ticker-tape .mp-tv-status-actions button{padding:4px 7px}
+.mp-tv-widget--ticker-tape .mp-tv-status-actions a{font-size:10px}
+.mp-market-disclosure{display:flex;gap:10px;align-items:flex-start;padding:16px 24px 12px;color:#aabbd2}
+.mp-market-disclosure>svg{flex-shrink:0;color:#7ca3d9;margin-top:2px}
+.mp-market-disclosure p{margin:0;font-size:11px;line-height:1.7;max-width:900px}
+.mp-market-source-details{margin:0 24px 20px;border-top:1px solid #243247;padding-top:11px;font-size:11px;line-height:1.7;color:#aabbd2}
+.mp-market-source-details summary{width:fit-content;cursor:pointer;color:#c0d1e9}
+.mp-market-source-details p{max-width:900px}
+.mp-market-source-details a{color:#9abfff;margin-right:16px}
+.mp-market-source-details a:last-child{margin-right:0}
+@keyframes mp-tv-spin{to{transform:rotate(360deg)}
+}
+@media(max-width:650px){.mp-market-header{padding:18px 14px 14px;align-items:flex-start;flex-direction:column;gap:12px}
+.mp-market-header h2{font-size:25px}
+.mp-market-symbols{padding:0 14px 16px;gap:5px}
+.mp-market-search-wrap{padding:0 14px 14px}
+.mp-market-search input{font-size:12px}
+.mp-market-results li button{grid-template-columns:46px minmax(0,1fr) 12px;gap:7px}
+.mp-market-symbols button{padding:7px 8px}
+.mp-tv-widget--advanced-chart{height:465px}
+.mp-market-disclosure{padding:14px}
+.mp-market-source-details{margin:0 14px 16px}
+.mp-tv-widget--ticker-tape .mp-tv-status--failed{flex-direction:column;gap:3px}
+.mp-tv-widget--ticker-tape .mp-tv-status-actions a{display:none}
+.mp-market-delay{font-size:9px}
+}
+@media(prefers-reduced-motion:reduce){.mp-tv-loader{animation:none}
+.mp-market-symbols button,.mp-tv-status-actions button{transition:none}
+}

@@ -1,6 +1,6 @@
 import { Component, StrictMode, type ReactNode } from 'react';
 import { createRoot } from 'react-dom/client';
-import DesignApp from './DesignApp';
+import MarketPulse from '../demo/MarketPulse';
 
 // Keep the public graph free of the connected controller, providers and journal.
 class DemoBoundary extends Component<{ children: ReactNode }, { failed: boolean }> {
@@ -16,5 +16,5 @@ class DemoBoundary extends Component<{ children: ReactNode }, { failed: boolean 
   }
 }
 createRoot(document.getElementById('root')!).render(
-  <StrictMode><DemoBoundary><DesignApp publicDemo /></DemoBoundary></StrictMode>,
+  <StrictMode><DemoBoundary><MarketPulse /></DemoBoundary></StrictMode>,
 );

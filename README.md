@@ -1,12 +1,18 @@
 # Rebalance Review
 
-**Understand the trade-off before you rebalance.** Compare your current ETF allocation with a proposed one, explore their risk and hypothetical historical paths, and record the reason for your decision.
+**Understand the trade-off before you rebalance.** Explore the market, compare ETF allocations, inspect the trades and risk behind a rebalance, and record the reason for your decision.
 
 [**Try the interactive demo →**](https://yz3639-gif.github.io/rebalance-review/) · [Quick start](#quick-start) · [Have an AI set it up](#have-an-ai-set-it-up) · [Methods](#what-is-calculated)
 
-[![Rebalance Review: linked wealth and drawdown charts, A/B comparison and date inspection](docs/media/terminal-overview.png)](https://yz3639-gif.github.io/rebalance-review/)
+[![Market Pulse: 50 synthetic ETF tickers, linked price chart and a self-financing decision lab](docs/media/market-pulse.png)](https://yz3639-gif.github.io/rebalance-review/)
 
-The hosted demo uses **deterministic synthetic data**, clearly labeled throughout. Explore the interface without an account or installation; it is not a live market-data service. Run the app on your computer to enter allocations and connect prices.
+The new **Market Pulse preview** combines a flowing 50-ETF **synthetic replay**, an editable **A→B transition lab**, and optional **TradingView market widgets** with provider-defined delays. Edit weights directly beside the chart, add tickers, or fill the remainder with cash. Trades and fees recalculate when both allocations total 100%. Synthetic prices are labeled throughout and never presented as observed quotes. Embedded market quotes are not read into our calculations. Run the connected local app for historical analysis with your own source data.
+
+The demo is published from `main` after its GitHub Pages build and browser checks pass. [Deployment status](https://github.com/yz3639-gif/rebalance-review/actions/workflows/pages.yml). To try the workspace locally: `npm run build:demo`, then `npm run preview:demo`; open **http://127.0.0.1:4175/rebalance-review/**. [Preview guide and calculation boundaries](docs/MARKET_PULSE.md).
+
+[![Synthetic Market Pulse playback — actual UI, generated data](docs/media/market-pulse.gif)](docs/MARKET_PULSE.md)
+
+![Transition lab: current-to-target trade amounts, fees and active-risk contributions on a synthetic study](docs/media/transition-lab.png)
 
 ## Quick start
 
@@ -105,18 +111,20 @@ The [detailed AI setup guide](docs/AI_QUICKSTART.md) adds environment checks, ac
 
 **See exactly what changes.** Compare original weights, inspect an ETF, and keep excluded positions visible.
 
-[![Holdings view: A/B allocation matrix, weight changes and linked asset inspector](docs/media/terminal-holdings.png)](https://yz3639-gif.github.io/rebalance-review/)
+[View the holdings comparison screenshot](docs/media/terminal-holdings.png).
 
 <details>
 <summary><strong>Watch the interactive walkthrough</strong></summary>
 
-[![Animated walkthrough of the synthetic research terminal](docs/media/terminal-preview.gif)](https://yz3639-gif.github.io/rebalance-review/)
+[Open the original five-view research walkthrough](docs/media/terminal-preview.gif).
 
 </details>
 
 **Edit portfolios & data** returns to your inputs. **Saved reviews** opens the local journal. Old reviews retain their recorded identity, data dates and permissions; they are not silently recomputed.
 
 ## Data and privacy
+
+The optional **Market** demo mode connects to TradingView, which receives the selected public symbol and normal browser connection information. Its embedded data, delay and privacy policy are controlled by the provider. **Replay starts without market-provider requests.** Unsaved demo allocation drafts stay in memory, but provider scripts in Market run in the same page and are not a security isolation boundary. [Widget boundaries and attribution](docs/market-data-modes.md).
 
 | Connection | Setup | What to expect |
 |---|---|---|
@@ -147,6 +155,7 @@ The app supports **up to 50 distinct ETFs across A and B, plus cash**. A directo
 
 ## What is calculated
 
+- **Transition lab (preview):** current-to-target dollar trades, self-financing post-fee allocations, gross turnover, and annualized active risk with signed contributions. The lab uses a frozen synthetic study and illustrative account values, independently of moving quotes.
 - **Risk:** centered Ledoit–Wolf covariance, annualized by 252, with 126/252/504-return windows. Signed Euler contributions reconcile to portfolio volatility. Cash covariance is zero; relative contributions and correlations involving zero-variance assets are N/A.
 - **Replay:** a self-financing cash ledger, initial purchase fees and monthly/quarterly/buy-and-hold schedules. Rebalancing signals execute at the next supplied close; no forced terminal trade. Costs and an additional one-session delay are separate calculated scenarios.
 - **Comparison:** latest common history capped at five calendar years, consistent inputs on both sides, explicit partial-coverage handling and original allocations preserved in reports.
@@ -229,7 +238,7 @@ npm run build:demo
 npm run preview:demo
 ```
 
-Open `http://127.0.0.1:4175/rebalance-review/`. The separate `dist-demo/` output contains only the synthetic terminal. The Pages workflow tests that project subpath before deployment. The three README screenshots and GIF are captures of this running demo; no chart values are edited. To regenerate them, keep the preview running, use `DEMO_MEDIA_URL=http://127.0.0.1:4175/rebalance-review/ node scripts/capture_demo_media.mjs`, then run `python scripts/assemble_demo_gif.py` in an optional Python environment with Pillow installed. Media tooling is not needed to run the application.
+Open `http://127.0.0.1:4175/rebalance-review/`. The separate `dist-demo/` output contains Market Pulse, the synthetic transition/research tools and optional provider-hosted market widgets; it does not include the connected local controller. The Pages workflow tests that project subpath before deployment. The README screenshots and GIF are captures of the synthetic running demo; no chart values are edited. To regenerate Market Pulse media, run `node scripts/capture_pulse_media.mjs` then `python3 scripts/assemble_pulse_gif.py` (optional Pillow). The original research captures use `scripts/capture_demo_media.mjs` and `scripts/assemble_demo_gif.py`. Neither media script permits external market requests. Media tooling is not needed to run the application.
 
 For frontend development, `npm run dev` uses the optional API proxy to a separate full Worker on port 8787. Use `npm start` for normal local use and end-to-end checks.
 

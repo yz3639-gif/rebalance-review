@@ -1,0 +1,238 @@
+[
+  {
+    "sleeve": "US equity",
+    "color": "#7AA2FF",
+    "assets": [
+      [
+        "SPY",
+        "S&P 500"
+      ],
+      [
+        "QQQ",
+        "Nasdaq 100"
+      ],
+      [
+        "IWM",
+        "Small caps"
+      ],
+      [
+        "DIA",
+        "Dow 30"
+      ],
+      [
+        "VTI",
+        "Total US market"
+      ],
+      [
+        "VOO",
+        "S&P 500"
+      ],
+      [
+        "RSP",
+        "Equal weight"
+      ],
+      [
+        "SCHD",
+        "US dividends"
+      ],
+      [
+        "VUG",
+        "US growth"
+      ],
+      [
+        "VTV",
+        "US value"
+      ]
+    ]
+  },
+  {
+    "sleeve": "Sectors & themes",
+    "color": "#A69AFF",
+    "assets": [
+      [
+        "XLK",
+        "Technology"
+      ],
+      [
+        "XLF",
+        "Financials"
+      ],
+      [
+        "XLE",
+        "Energy"
+      ],
+      [
+        "XLV",
+        "Health care"
+      ],
+      [
+        "XLI",
+        "Industrials"
+      ],
+      [
+        "XLY",
+        "Discretionary"
+      ],
+      [
+        "XLP",
+        "Staples"
+      ],
+      [
+        "XLU",
+        "Utilities"
+      ],
+      [
+        "XLB",
+        "Materials"
+      ],
+      [
+        "XLRE",
+        "Real estate"
+      ],
+      [
+        "XLC",
+        "Communications"
+      ],
+      [
+        "SMH",
+        "Semiconductors"
+      ],
+      [
+        "XBI",
+        "Biotech"
+      ],
+      [
+        "IBB",
+        "Biotechnology"
+      ],
+      [
+        "IGV",
+        "Software"
+      ],
+      [
+        "ARKK",
+        "Innovation"
+      ]
+    ]
+  },
+  {
+    "sleeve": "Fixed income",
+    "color": "#53D3C3",
+    "assets": [
+      [
+        "TLT",
+        "Long Treasuries"
+      ],
+      [
+        "IEF",
+        "Intermediate Treasuries"
+      ],
+      [
+        "SHY",
+        "Short Treasuries"
+      ],
+      [
+        "BND",
+        "Total bonds"
+      ],
+      [
+        "HYG",
+        "High yield"
+      ],
+      [
+        "LQD",
+        "Corporate bonds"
+      ],
+      [
+        "TIP",
+        "Inflation protected"
+      ]
+    ]
+  },
+  {
+    "sleeve": "Real assets",
+    "color": "#E9BD72",
+    "assets": [
+      [
+        "GLD",
+        "Gold"
+      ],
+      [
+        "SLV",
+        "Silver"
+      ],
+      [
+        "USO",
+        "Oil"
+      ],
+      [
+        "DBC",
+        "Commodities"
+      ]
+    ]
+  },
+  {
+    "sleeve": "International",
+    "color": "#77B8DF",
+    "assets": [
+      [
+        "VEA",
+        "Developed markets"
+      ],
+      [
+        "VWO",
+        "Emerging markets"
+      ],
+      [
+        "VXUS",
+        "International equity"
+      ],
+      [
+        "EEM",
+        "Emerging markets"
+      ],
+      [
+        "EFA",
+        "Developed ex-US"
+      ],
+      [
+        "EWJ",
+        "Japan"
+      ],
+      [
+        "FXI",
+        "China large caps"
+      ]
+    ]
+  },
+  {
+    "sleeve": "Leveraged & inverse",
+    "color": "#EA93B1",
+    "assets": [
+      [
+        "SOXL",
+        "Semiconductors bull 3\u00d7"
+      ],
+      [
+        "TQQQ",
+        "Nasdaq bull 3\u00d7"
+      ],
+      [
+        "UPRO",
+        "S&P 500 bull 3\u00d7"
+      ],
+      [
+        "SQQQ",
+        "Nasdaq bear 3\u00d7"
+      ],
+      [
+        "SOXS",
+        "Semiconductors bear 3\u00d7"
+      ],
+      [
+        "TNA",
+        "Small caps bull 3\u00d7"
+      ]
+    ]
+  }
+]

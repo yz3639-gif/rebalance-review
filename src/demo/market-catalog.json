@@ -1,0 +1,325 @@
+{
+  "schemaVersion": 1,
+  "version": "2026-10-06-91aba546dec4",
+  "asOf": "2026-10-06",
+  "sourceName": "Nasdaq symbol directories: ETF-flagged non-test listings",
+  "sourceCatalog": "src/data/etf-catalog.json",
+  "sourceCatalogSha256": "9bcbd9fdca2dc148e4a58a55f06403edc542df4cf2658ce6ea2d0abd5f1c8514",
+  "selectionSource": "src/demo/market-universe.json",
+  "selectionSha256": "2e7a0936ff7774bf19f2aeb679da48e954b490fc645ae7f77ff974b7516f5718",
+  "sourceNotes": "Current Nasdaq ETF-flagged non-test listings. Includes exchange-traded products. Listing identity only: no verification of inception, currency, leverage, provider availability, or historical universe. Nasdaq data is not relicensed under the application MIT license.",
+  "sources": [
+    {
+      "url": "https://www.nasdaqtrader.com/dynamic/SymDir/nasdaqlisted.txt",
+      "sha256": "5f5e39f1a7c8c166b6edb69c61032ab5a5f64eaf9b3dd827b763aa92267616cb",
+      "fileCreatedAt": "1006202615:41"
+    },
+    {
+      "url": "https://www.nasdaqtrader.com/dynamic/SymDir/otherlisted.txt",
+      "sha256": "df91c7c02e9eb3ae9e2523baa980cc497b96917aa5646fa7c28fcd38409b9f0d",
+      "fileCreatedAt": "1006202615:41"
+    }
+  ],
+  "assets": [
+    {
+      "symbol": "SPY",
+      "name": "State Street SPDR S&P 500 ETF Trust",
+      "exchange": "NYSE Arca",
+      "source": 1
+    },
+    {
+      "symbol": "QQQ",
+      "name": "Invesco QQQ Trust, Series 1",
+      "exchange": "Nasdaq",
+      "source": 0
+    },
+    {
+      "symbol": "IWM",
+      "name": "iShares Russell 2000 Index Fund",
+      "exchange": "NYSE Arca",
+      "source": 1
+    },
+    {
+      "symbol": "DIA",
+      "name": "State Street SPDR Dow Jones Industrial Average ETF Trust",
+      "exchange": "NYSE Arca",
+      "source": 1
+    },
+    {
+      "symbol": "VTI",
+      "name": "Vanguard Morningstar Total Stock Market ETF",
+      "exchange": "NYSE Arca",
+      "source": 1
+    },
+    {
+      "symbol": "VOO",
+      "name": "Vanguard S&P 500 ETF",
+      "exchange": "NYSE Arca",
+      "source": 1
+    },
+    {
+      "symbol": "RSP",
+      "name": "Invesco S&P 500 Equal Weight ETF",
+      "exchange": "NYSE Arca",
+      "source": 1
+    },
+    {
+      "symbol": "SCHD",
+      "name": "Schwab US Dividend Equity ETF",
+      "exchange": "NYSE Arca",
+      "source": 1
+    },
+    {
+      "symbol": "VUG",
+      "name": "Vanguard Morningstar Growth ETF",
+      "exchange": "NYSE Arca",
+      "source": 1
+    },
+    {
+      "symbol": "VTV",
+      "name": "Vanguard Morningstar Value ETF",
+      "exchange": "NYSE Arca",
+      "source": 1
+    },
+    {
+      "symbol": "XLK",
+      "name": "State Street Technology Select Sector SPDR ETF",
+      "exchange": "NYSE Arca",
+      "source": 1
+    },
+    {
+      "symbol": "XLF",
+      "name": "State Street Financial Select Sector SPDR ETF",
+      "exchange": "NYSE Arca",
+      "source": 1
+    },
+    {
+      "symbol": "XLE",
+      "name": "State Street Energy Select Sector SPDR ETF",
+      "exchange": "NYSE Arca",
+      "source": 1
+    },
+    {
+      "symbol": "XLV",
+      "name": "State Street Health Care Select Sector SPDR ETF",
+      "exchange": "NYSE Arca",
+      "source": 1
+    },
+    {
+      "symbol": "XLI",
+      "name": "State Street Industrial Select Sector SPDR ETF",
+      "exchange": "NYSE Arca",
+      "source": 1
+    },
+    {
+      "symbol": "XLY",
+      "name": "State Street Consumer Discretionary Select Sector SPDR ETF",
+      "exchange": "NYSE Arca",
+      "source": 1
+    },
+    {
+      "symbol": "XLP",
+      "name": "State Street Consumer Staples Select Sector SPDR ETF",
+      "exchange": "NYSE Arca",
+      "source": 1
+    },
+    {
+      "symbol": "XLU",
+      "name": "State Street Utilities Select Sector SPDR ETF",
+      "exchange": "NYSE Arca",
+      "source": 1
+    },
+    {
+      "symbol": "XLB",
+      "name": "State Street Materials Select Sector SPDR ETF",
+      "exchange": "NYSE Arca",
+      "source": 1
+    },
+    {
+      "symbol": "XLRE",
+      "name": "State Street Real Estate Select Sector SPDR ETF",
+      "exchange": "NYSE Arca",
+      "source": 1
+    },
+    {
+      "symbol": "XLC",
+      "name": "State Street Communication Services Select Sector SPDR ETF",
+      "exchange": "NYSE Arca",
+      "source": 1
+    },
+    {
+      "symbol": "SMH",
+      "name": "VanEck Semiconductor ETF",
+      "exchange": "Nasdaq",
+      "source": 0
+    },
+    {
+      "symbol": "XBI",
+      "name": "State Street SPDR S&P Biotech ETF",
+      "exchange": "NYSE Arca",
+      "source": 1
+    },
+    {
+      "symbol": "IBB",
+      "name": "iShares Biotechnology ETF",
+      "exchange": "Nasdaq",
+      "source": 0
+    },
+    {
+      "symbol": "IGV",
+      "name": "iShares Expanded Tech-Software Sector ETF",
+      "exchange": "Cboe BZX",
+      "source": 1
+    },
+    {
+      "symbol": "ARKK",
+      "name": "ARK Innovation ETF",
+      "exchange": "Cboe BZX",
+      "source": 1
+    },
+    {
+      "symbol": "TLT",
+      "name": "iShares 20+ Year Treasury Bond ETF",
+      "exchange": "Nasdaq",
+      "source": 0
+    },
+    {
+      "symbol": "IEF",
+      "name": "iShares 7-10 Year Treasury Bond ETF",
+      "exchange": "Nasdaq",
+      "source": 0
+    },
+    {
+      "symbol": "SHY",
+      "name": "iShares 1-3 Year Treasury Bond ETF",
+      "exchange": "Nasdaq",
+      "source": 0
+    },
+    {
+      "symbol": "BND",
+      "name": "Vanguard Total Bond Market ETF",
+      "exchange": "Nasdaq",
+      "source": 0
+    },
+    {
+      "symbol": "HYG",
+      "name": "iShares iBoxx $ High Yield Corporate Bond ETF",
+      "exchange": "NYSE Arca",
+      "source": 1
+    },
+    {
+      "symbol": "LQD",
+      "name": "iShares iBoxx $ Investment Grade Corporate Bond ETF",
+      "exchange": "NYSE Arca",
+      "source": 1
+    },
+    {
+      "symbol": "TIP",
+      "name": "iShares TIPS Bond ETF",
+      "exchange": "NYSE Arca",
+      "source": 1
+    },
+    {
+      "symbol": "GLD",
+      "name": "SPDR Gold Shares",
+      "exchange": "NYSE Arca",
+      "source": 1
+    },
+    {
+      "symbol": "SLV",
+      "name": "iShares Silver Trust",
+      "exchange": "NYSE Arca",
+      "source": 1
+    },
+    {
+      "symbol": "USO",
+      "name": "United States Oil Fund",
+      "exchange": "NYSE Arca",
+      "source": 1
+    },
+    {
+      "symbol": "DBC",
+      "name": "Invesco DB Commodity Index Tracking Fund",
+      "exchange": "NYSE Arca",
+      "source": 1
+    },
+    {
+      "symbol": "VEA",
+      "name": "Vanguard FTSE Developed Markets ETF",
+      "exchange": "NYSE Arca",
+      "source": 1
+    },
+    {
+      "symbol": "VWO",
+      "name": "Vanguard FTSE Emerging Markets ETF",
+      "exchange": "NYSE Arca",
+      "source": 1
+    },
+    {
+      "symbol": "VXUS",
+      "name": "Vanguard Total International Stock ETF",
+      "exchange": "Nasdaq",
+      "source": 0
+    },
+    {
+      "symbol": "EEM",
+      "name": "iShares MSCI Emerging Index Fund",
+      "exchange": "NYSE Arca",
+      "source": 1
+    },
+    {
+      "symbol": "EFA",
+      "name": "iShares MSCI EAFE ETF",
+      "exchange": "NYSE Arca",
+      "source": 1
+    },
+    {
+      "symbol": "EWJ",
+      "name": "iShares MSCI Japan Index Fund",
+      "exchange": "NYSE Arca",
+      "source": 1
+    },
+    {
+      "symbol": "FXI",
+      "name": "iShares China Large-Cap ETF",
+      "exchange": "NYSE Arca",
+      "source": 1
+    },
+    {
+      "symbol": "SOXL",
+      "name": "Direxion Daily Semiconductor Bull 3X ETF",
+      "exchange": "NYSE Arca",
+      "source": 1
+    },
+    {
+      "symbol": "TQQQ",
+      "name": "ProShares UltraPro QQQ",
+      "exchange": "Nasdaq",
+      "source": 0
+    },
+    {
+      "symbol": "UPRO",
+      "name": "ProShares UltraPro S&P 500",
+      "exchange": "NYSE Arca",
+      "source": 1
+    },
+    {
+      "symbol": "SQQQ",
+      "name": "ProShares UltraPro Short QQQ",
+      "exchange": "Nasdaq",
+      "source": 0
+    },
+    {
+      "symbol": "SOXS",
+      "name": "Direxion Daily Semiconductor Bear 3X ETF",
+      "exchange": "NYSE Arca",
+      "source": 1
+    },
+    {
+      "symbol": "TNA",
+      "name": "Direxion Small Cap Bull 3X ETF",
+      "exchange": "NYSE Arca",
+      "source": 1
+    }
+  ]
+}
