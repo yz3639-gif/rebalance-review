@@ -1,0 +1,43 @@
+name: Verify exact release candidate
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+permissions:
+  contents: read
+concurrency:
+  group: verify-${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+jobs:
+  clean-ubuntu-zip:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 45
+    env:
+      WRANGLER_SEND_METRICS: 'false'
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
+      - uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020 # v4
+        with:
+          node-version-file: .nvmrc
+          cache: npm
+      - uses: astral-sh/setup-uv@bec219d24cd3e171d82865faccec33120bb574f4 # v10.1.0
+        with:
+          version: '0.12.21'
+          python-version: '3.11.16'
+      - run: npm ci
+      - run: uv sync --locked
+      - run: npm run notices:check
+      - run: node node_modules/playwright/cli.js install --with-deps chromium firefox webkit
+      - name: Package candidate (no previous release evidence)
+        run: python3 scripts/package_release.py --output "$RUNNER_TEMP/rebalance-review-candidate.zip"
+      - name: Independently install and verify the exact ZIP
+        run: python3 scripts/verify_archive.py "$RUNNER_TEMP/rebalance-review-candidate.zip" --full --output "$RUNNER_TEMP/release-evidence/ubuntu-verification.json"
+      - uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4
+        if: always()
+        with:
+          name: exact-zip-and-verification
+          path: |
+            ${{ runner.temp }}/rebalance-review-candidate.zip
+            ${{ runner.temp }}/rebalance-review-candidate.sha256
+            ${{ runner.temp }}/release-evidence/
+          retention-days: 14

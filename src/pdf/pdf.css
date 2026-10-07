@@ -1,0 +1,18 @@
+.pdf-actions { margin-top: 12px; }
+.pdf-actions > .hint { margin-top: 9px; }
+.print-context { display: none; }
+.print-restriction-notice { display: none; }
+@media print {
+  .pdf-actions { display: none !important; }
+  .report .assumptions { display: none !important; }
+  .print-context { display: block !important; margin-top: 15px; }
+  .print-context p { white-space: pre-wrap; overflow-wrap: anywhere; margin: 8px 0; }
+  .report .table-scroll { overflow: visible; }
+  .report-grid, .kpi-grid { display: block; }
+  .report .panel { margin-bottom: 12px; }
+  .report table { table-layout: fixed; }
+  .report th, .report td { white-space: normal; overflow-wrap: anywhere; }
+  .report thead { display: table-header-group; }
+  .report-print-restricted > * { display: none !important; }
+  .report-print-restricted > .print-restriction-notice { display: block !important; }
+}

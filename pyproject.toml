@@ -1,0 +1,15 @@
+[project]
+name = "rebalance-review-verification"
+version = "1.0.0"
+description = "Independent numerical and exchange-calendar verification tools"
+requires-python = ">=3.11,<3.12"
+dependencies = [
+  "numpy==2.4.6",
+  "pandas==2.3.3",
+  "scipy==1.17.1",
+  "scikit-learn==1.9.1",
+  "exchange-calendars==4.13.2",
+]
+
+[tool.uv]
+package = false

@@ -1,0 +1,79 @@
+/* Hidden editors stay mounted to preserve unsaved CSV mappings and in-memory API connections. */
+.rr-connected-base[hidden],.rr-connected-editor[hidden] { display:none!important; }
+/* Connected workflow: reuse the proven forms and controller with the research palette. */
+@media screen {
+  .rr-connected { --bg:#0b0d12; --surface:#11151b; --surface-raised:#171d27; --text:#edf1f7; --ink:#edf1f7; --muted:#a3aec0; --line:#2c3545; --green:#7aa2ff; --blue:#53d3c3; --mono:'Geist Mono Variable',monospace; background:var(--bg); color:var(--text); font-family:'Geist Variable',-apple-system,BlinkMacSystemFont,sans-serif; min-height:100vh; }
+  .rr-connected.dr-report-actions { min-height:0; background:transparent; }
+  .rr-connected-inputs .site-header { background:#0e1117f2; border-color:#252d3c; height:72px; }
+  .rr-connected-inputs .header-inner,.rr-connected-inputs main { max-width:1400px; padding-left:32px; padding-right:32px; }
+  .rr-connected-inputs .brand-symbol { background:#1a2740; border-color:#364d76; color:#b6cfff; }
+  .rr-connected-inputs .brand-descriptor { color:#a3b0c5; }
+  .rr-connected-inputs .workspace-heading { padding-top:33px; }
+  .rr-connected-inputs .workspace-heading h1 { font-size:34px; font-weight:500; letter-spacing:-1.2px; }
+  .rr-connected-inputs .workspace-heading .button-row { justify-content:flex-end; gap:12px; }
+  .rr-connected-inputs .workspace-summary { background:#11151b; border-color:#2b3443; }
+  .rr-connected-inputs .workspace-summary>div { padding:15px 20px; }
+  .rr-connected-inputs .workspace-nav { margin-bottom:23px; }
+  .rr-connected .portfolio-editor { background:#11151b; border-top-color:#7aa2ff; }
+  .rr-connected .portfolio-editor.b { background:#11191d; border-top-color:#53d3c3; }
+  .rr-connected .portfolio-letter { color:#b8ceff; border-color:#364c70; background:#1b2941; }
+  .rr-connected .b .portfolio-letter { color:#95e9df; border-color:#31584f; background:#16332e; }
+  .rr-connected .total-ok { color:#aec7ff; }
+  .rr-connected .b .total-ok { color:#74dfd1; }
+  .rr-connected .primary { color:#102144; background:#b4cbff; border-color:#b4cbff; }
+  .rr-connected .primary:hover { background:#cbdcff; border-color:#cbdcff; }
+  .rr-connected .secondary { color:#d4ddec; background:#171e2a; border-color:#3e4d64; }
+  .rr-connected .secondary:hover { background:#26334b; border-color:#7185a2; }
+  .rr-connected .quiet { color:#b8c7dc; }
+  .rr-connected .quiet:hover { color:#d7e4ff; }
+  .rr-connected input,.rr-connected select,.rr-connected textarea { background:#0d1118; border-color:#354156; color:#dce6f5; }
+  .rr-connected input[type=checkbox] { accent-color:#7aa2ff; }
+  .rr-connected .settings,.rr-connected .draft-panel { background:#111720; border-color:#2d394c; }
+  .rr-connected .compare-bar { background:linear-gradient(100deg,#18253b,#111b28); border-color:#364c6b; }
+  .rr-connected .asset-options { background:#121b2a; border-color:#526889; }
+  .rr-connected .asset-options [role=option].active,.rr-connected .asset-options [role=option]:hover { background:#273754; }
+  .rr-connected .asset-options [role=option] span { color:#c2cde0; }
+  .rr-connected .save-panel { background:#141d2b; border-color:#334560; grid-template-columns:minmax(0,.75fr) minmax(0,1.25fr); gap:28px; padding:25px; margin:0 0 20px; }
+  .rr-connected .save-panel h2 { font-size:27px; }
+  .rr-connected .save-panel .eyebrow { color:#9aafd1; font-size:9px; }
+  .rr-connected .save-panel .check { color:#c3d0e5; }
+  .rr-connected .save-panel .muted,.rr-connected .save-panel .hint { color:#aab7cb; }
+  .rr-connected .save-panel label { color:#cad6e8; }
+  .rr-connected .review-actions .button-row { align-items:flex-start; }
+  .rr-connected .rr-connected-report-actions { background:#111720; border:1px solid #31415a; border-radius:6px; padding:20px; margin-bottom:20px; }
+  .rr-connected .rr-connected-report-actions .warning { margin-top:0; }
+  .rr-connected-recovery-nav { display:none; }
+  .rr-connected-analysis:has(> .recovery-panel)>.rr-connected-recovery-nav { display:flex; gap:16px; padding:24px; }
+  .rr-connected-messages { position:relative; margin-left:178px; padding:0 26px; }
+  .rr-connected-messages:empty { display:none; }
+  .rr-connected-messages .status,.rr-connected-messages .error { margin:0; border-radius:0; padding:9px 14px; font-size:11px; }
+  .rr-connected-journal-heading { padding:35px 0 15px; }
+  .rr-connected-journal-heading h1 { font-size:32px; font-weight:500; margin:10px 0 18px; }
+  .rr-connected-print { position:absolute!important; top:0!important; left:-20000px!important; width:1100px!important; padding:0!important; border:0!important; pointer-events:none!important; }
+  .rr-connected .principles { margin-top:35px; }
+  .rr-connected footer { max-width:1336px; }
+}
+@media screen and (max-width:1000px) {
+  .rr-connected .save-panel { grid-template-columns:1fr; gap:20px; }
+}
+@media screen and (max-width:760px) {
+  .rr-connected-inputs .site-header { height:auto; min-height:66px; }
+  .rr-connected-inputs .header-inner,.rr-connected-inputs main { padding-left:18px; padding-right:18px; }
+  .rr-connected-inputs .header-inner { min-height:66px; gap:10px; }
+  .rr-connected-inputs .header-mode { display:none; }
+  .rr-connected-inputs .header-right { gap:8px; }
+  .rr-connected-inputs .header-right .quiet { font-size:10px; }
+  .rr-connected-inputs .workspace-heading h1 { font-size:30px; }
+  .rr-connected-inputs .workspace-heading .button-row { justify-content:flex-start; gap:12px; }
+  .rr-connected-inputs .workspace-summary>div { padding:13px 14px; }
+  .rr-connected-messages { margin-left:0; padding:0 12px; }
+  .rr-connected-messages:empty { display:none; }
+  .rr-connected .save-panel { padding:18px; }
+  .rr-connected .save-panel h2 { font-size:24px; }
+}
+@media print {
+  .rr-connected-analysis>.boundary-content,.rr-connected-analysis>.recovery-panel,.rr-connected-analysis>.rr-connected-recovery-nav,.rr-connected-analysis>.rr-connected-messages { display:none!important; }
+  .rr-connected-print { display:block!important; position:static!important; width:auto!important; padding:0!important; margin:0!important; }
+  .rr-connected-print .report { display:block!important; }
+  .rr-connected-print .archive { margin:0!important; padding:0!important; border:0!important; }
+}

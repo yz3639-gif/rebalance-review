@@ -1,0 +1,36 @@
+{
+  "name": "media-engine",
+  "version": "2.0.0",
+  "description": "Media query calculator",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "author": "Diego Muracciole <diegomuracciole@gmail.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/diegomura/media-engine.git"
+  },
+  "scripts": {
+    "build": "tsc",
+    "pretest": "tsc",
+    "test": "jest",
+    "prepare": "tsc",
+    "precommit": "lint-staged"
+  },
+  "lint-staged": {
+    "*.{js,ts}": [
+      "prettier --write",
+      "git add"
+    ]
+  },
+  "devDependencies": {
+    "husky": "^0.14.3",
+    "jest": "^22.4.2",
+    "lint-staged": "^7.0.0",
+    "prettier": "^1.11.0",
+    "typescript": "^5.5.0"
+  }
+}

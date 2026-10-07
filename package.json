@@ -1,0 +1,67 @@
+{
+  "name": "rebalance-review",
+  "version": "1.2.2-preview.1",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 127.0.0.1",
+    "build": "tsc -b && vite build",
+    "preview": "vite preview --host 127.0.0.1",
+    "test": "vitest run",
+    "test:e2e": "playwright test",
+    "typecheck": "tsc -b",
+    "dev:full": "npm start",
+    "deploy:check": "npm run build && wrangler deploy --dry-run",
+    "oracle:check": "uv run --locked python oracle/generate.py --check",
+    "calendar:check": "uv run --locked python src/data/generate_calendar.py --check",
+    "preview:full": "wrangler dev --port 8787",
+    "notices": "uv run --locked python scripts/build_notices.py",
+    "package:release": "python3 scripts/package_release.py",
+    "start": "node scripts/start.mjs",
+    "verify:worker": "node scripts/verify_worker.mjs",
+    "verify:release": "python3 scripts/verify_archive.py",
+    "sbom": "node scripts/build_sbom.mjs",
+    "notices:check": "uv run --locked python scripts/build_notices.py --check",
+    "prebuild": "node scripts/prepare_notices.mjs",
+    "oracle:expanded:check": "uv run --locked python oracle/generate_expanded.py --check",
+    "build:demo": "node scripts/build_demo.mjs",
+    "preview:demo": "vite preview --config vite.demo.config.ts",
+    "test:demo": "playwright test --config playwright.demo.config.ts"
+  },
+  "dependencies": {
+    "@fontsource-variable/geist": "5.3.0",
+    "@fontsource-variable/geist-mono": "5.3.0",
+    "@react-pdf/renderer": "4.9.0",
+    "buffer": "6.0.3",
+    "dexie": "^4.4.6",
+    "echarts": "^6.1.0",
+    "fflate": "0.8.3",
+    "lucide-react": "1.52.0",
+    "papaparse": "^5.7.0",
+    "react": "^19.3.0",
+    "react-dom": "^19.3.0",
+    "zod": "^4.6.5"
+  },
+  "devDependencies": {
+    "@axe-core/playwright": "^4.13.0",
+    "@playwright/test": "^1.63.0",
+    "@types/papaparse": "^5.5.2",
+    "@types/react": "^19.3.0",
+    "@types/react-dom": "^19.3.0",
+    "@vitejs/plugin-react": "^6.1.2",
+    "fast-check": "^4.10.2",
+    "pdfjs-dist": "6.4.299",
+    "typescript": "^7.0.2",
+    "vite": "^8.3.2",
+    "vitest": "^4.1.11",
+    "wrangler": "4.147.0"
+  },
+  "engines": {
+    "node": ">=24.21.0 <25"
+  },
+  "overrides": {
+    "miniflare": {
+      "sharp": "0.35.5"
+    }
+  }
+}

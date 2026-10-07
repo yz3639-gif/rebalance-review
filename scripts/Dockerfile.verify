@@ -1,0 +1,17 @@
+# Independent Ubuntu verification; source is provided only as an input ZIP.
+FROM ubuntu:24.04@sha256:534baea6a22c03a63003dbc8dbe78fe34bc0d7e595d9a9dc9834884ff530eb55
+ARG NODE_VERSION=24.21.0
+ARG UV_VERSION=0.12.21
+ENV DEBIAN_FRONTEND=noninteractive CI=1 WRANGLER_SEND_METRICS=false
+RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates curl xz-utils python3 unzip && rm -rf /var/lib/apt/lists/*
+RUN set -eu; case "$(dpkg --print-architecture)" in amd64) ARCH=x64;; arm64) ARCH=arm64;; *) exit 1;; esac; \
+    curl --fail --silent --show-error --location "https://nodejs.org/dist/v${NODE_VERSION}/node-v${NODE_VERSION}-linux-${ARCH}.tar.xz" -o /tmp/node.tar.xz; \
+    curl --fail --silent --show-error --location "https://nodejs.org/dist/v${NODE_VERSION}/SHASUMS256.txt" -o /tmp/node-sha.txt; \
+    awk -v f="node-v${NODE_VERSION}-linux-${ARCH}.tar.xz" '$2==f {print $1 "  /tmp/node.tar.xz"}' /tmp/node-sha.txt | sha256sum -c -; \
+    tar -xJf /tmp/node.tar.xz -C /usr/local --strip-components=1; rm /tmp/node.tar.xz /tmp/node-sha.txt
+RUN curl --fail --silent --show-error --location "https://astral.sh/uv/${UV_VERSION}/install.sh" -o /tmp/uv-install.sh && \
+    UV_INSTALL_DIR=/usr/local/bin sh /tmp/uv-install.sh && rm /tmp/uv-install.sh
+# Install only browser OS libraries and version-matched binaries, not the app.
+RUN npm exec --yes --package=@playwright/test@1.63.0 -- playwright install --with-deps chromium firefox webkit
+WORKDIR /verification
+ENTRYPOINT ["python3", "/tools/verify_archive.py"]

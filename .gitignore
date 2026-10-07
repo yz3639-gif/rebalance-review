@@ -1,0 +1,37 @@
+node_modules/
+dist/
+test-results/
+playwright-report/
+*.tsbuildinfo
+.DS_Store
+.env*
+.venv/
+__pycache__/
+*.pyc
+.wrangler/
+tmp/
+output/
+verification/
+verification-runs/
+docs/verification-runs/
+*.log
+*.har
+oracle/performance.json
+oracle/browser-performance*.json
+oracle/observed-market-verification.json
+oracle/reproducibility-check.json
+oracle/performance-v*.json
+
+# Local historical audits are separate from the public source distribution.
+IMPLEMENTATION_CONTRACT.md
+docs/DELIVERY_READINESS_AUDIT_*.md
+docs/QA_LOG.md
+docs/QUALITY_REPORT.md
+docs/QUALITY_REVIEW_*.md
+docs/V1*_DELIVERY.md
+docs/connected-workspace.md
+docs/design-review.md
+
+# Isolated GitHub Pages sample build
+dist-demo/
+demo-test-results/

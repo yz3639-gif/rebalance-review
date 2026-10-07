@@ -1,0 +1,17 @@
+{
+  "sourceUrl": "https://raw.githubusercontent.com/google/fonts/7085eb89a950e85db5b166b7a58d414544b4140c/ofl/notosanssc/NotoSansSC%5Bwght%5D.ttf",
+  "sourceCommit": "7085eb89a950e85db5b166b7a58d414544b4140c",
+  "sourceSha256": "a3041811a78c361b1de50f953c805e0244951c21c5bd412f7232ef0d899af0da",
+  "sourceLicense": "SIL Open Font License 1.1",
+  "sourceLicenseUrl": "https://raw.githubusercontent.com/google/fonts/7085eb89a950e85db5b166b7a58d414544b4140c/ofl/notosanssc/OFL.txt",
+  "buildTool": "fonttools==4.60.1",
+  "axes": {
+    "wght": 400
+  },
+  "format": "static TTF",
+  "family": "Rebalance Sans SC",
+  "file": "RebalanceSansSC-Regular.ttf",
+  "bytes": 10596148,
+  "sha256": "33942b12371f51fb0fa8986418d17e1023f3139dcbec0b9d8f96b25e24809563",
+  "glyphCodepoints": 30890
+}

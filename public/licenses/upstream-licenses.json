@@ -1,0 +1,861 @@
+{
+  "schemaVersion": 1,
+  "checkedAt": "2026-10-06",
+  "scope": "Preserved exact-source notices, licensing declarations and separately labeled canonical license texts. A missing standalone file is not a claim that a declared MIT/ISC package is unlicensed; conflicts are distinguished from declaration-only attribution.",
+  "notices": [
+    {
+      "ecosystem": "npm",
+      "name": "@cloudflare/kv-asset-handler",
+      "version": "0.5.0",
+      "status": "full-text",
+      "files": [
+        {
+          "path": "licenses/upstream/cloudflare/workers-sdk/47cf644ab0e22ee2e429f19dd7ca4e84955be59b/LICENSE-APACHE",
+          "sourceUrl": "https://raw.githubusercontent.com/cloudflare/workers-sdk/47cf644ab0e22ee2e429f19dd7ca4e84955be59b/LICENSE-APACHE",
+          "revision": "47cf644ab0e22ee2e429f19dd7ca4e84955be59b",
+          "sha256": "62c7a1e35f56406896d7aa7ca52d0cc0d272ac022b5d2796e7d6905db8a3636a",
+          "bytes": 9723
+        },
+        {
+          "path": "licenses/upstream/cloudflare/workers-sdk/47cf644ab0e22ee2e429f19dd7ca4e84955be59b/LICENSE-MIT",
+          "sourceUrl": "https://raw.githubusercontent.com/cloudflare/workers-sdk/47cf644ab0e22ee2e429f19dd7ca4e84955be59b/LICENSE-MIT",
+          "revision": "47cf644ab0e22ee2e429f19dd7ca4e84955be59b",
+          "sha256": "9bb3b077cc8628334bab25961223dd8207252c8a56aa054195be38f1c042aaf4",
+          "bytes": 1086
+        }
+      ],
+      "metadataUrl": "https://registry.npmjs.org/%40cloudflare%2Fkv-asset-handler/0.5.0",
+      "revisionEvidence": "refs/tags/@cloudflare/kv-asset-handler@0.5.0^{}"
+    },
+    {
+      "ecosystem": "npm",
+      "name": "@cloudflare/unenv-preset",
+      "version": "2.16.2",
+      "status": "full-text",
+      "files": [
+        {
+          "path": "licenses/upstream/cloudflare/workers-sdk/6e7712725698df46db9ec25ac738dd155ff8d39e/LICENSE-APACHE",
+          "sourceUrl": "https://raw.githubusercontent.com/cloudflare/workers-sdk/6e7712725698df46db9ec25ac738dd155ff8d39e/LICENSE-APACHE",
+          "revision": "6e7712725698df46db9ec25ac738dd155ff8d39e",
+          "sha256": "62c7a1e35f56406896d7aa7ca52d0cc0d272ac022b5d2796e7d6905db8a3636a",
+          "bytes": 9723
+        },
+        {
+          "path": "licenses/upstream/cloudflare/workers-sdk/6e7712725698df46db9ec25ac738dd155ff8d39e/LICENSE-MIT",
+          "sourceUrl": "https://raw.githubusercontent.com/cloudflare/workers-sdk/6e7712725698df46db9ec25ac738dd155ff8d39e/LICENSE-MIT",
+          "revision": "6e7712725698df46db9ec25ac738dd155ff8d39e",
+          "sha256": "9bb3b077cc8628334bab25961223dd8207252c8a56aa054195be38f1c042aaf4",
+          "bytes": 1086
+        }
+      ],
+      "metadataUrl": "https://registry.npmjs.org/%40cloudflare%2Funenv-preset/2.16.2",
+      "revisionEvidence": "refs/tags/@cloudflare/unenv-preset@2.16.2^{}"
+    },
+    {
+      "ecosystem": "npm",
+      "name": "@cloudflare/workerd-darwin-arm64",
+      "version": "1.20261001.1",
+      "status": "full-text",
+      "files": [
+        {
+          "path": "licenses/upstream/cloudflare/workerd/402f058c655b01fa58ba1ed711061cf3bc7d896b/LICENSE",
+          "sourceUrl": "https://raw.githubusercontent.com/cloudflare/workerd/402f058c655b01fa58ba1ed711061cf3bc7d896b/LICENSE",
+          "revision": "402f058c655b01fa58ba1ed711061cf3bc7d896b",
+          "sha256": "0d542e0c8804e39aa7f37eb00da5a762149dc682d7829451287e11b938e94594",
+          "bytes": 10174
+        }
+      ],
+      "metadataUrl": "https://registry.npmjs.org/%40cloudflare%2Fworkerd-darwin-arm64/1.20261001.1",
+      "revisionEvidence": "npm registry gitHead"
+    },
+    {
+      "ecosystem": "npm",
+      "name": "@esbuild/darwin-arm64",
+      "version": "0.28.1",
+      "status": "full-text",
+      "files": [
+        {
+          "path": "licenses/upstream/evanw/esbuild/bb9db84c02433fbe37b3509f53f9f3e3cc48725e/LICENSE.md",
+          "sourceUrl": "https://raw.githubusercontent.com/evanw/esbuild/bb9db84c02433fbe37b3509f53f9f3e3cc48725e/LICENSE.md",
+          "revision": "bb9db84c02433fbe37b3509f53f9f3e3cc48725e",
+          "sha256": "b40ec5baec7bb34fa5b1c09521fa3cd52d5fad7adafed74932a2010d3612a681",
+          "bytes": 1069
+        }
+      ],
+      "metadataUrl": "https://registry.npmjs.org/%40esbuild%2Fdarwin-arm64/0.28.1",
+      "revisionEvidence": "npm registry gitHead"
+    },
+    {
+      "ecosystem": "npm",
+      "name": "@napi-rs/canvas-darwin-arm64",
+      "version": "1.0.10",
+      "status": "full-text",
+      "files": [
+        {
+          "path": "licenses/upstream/Brooooooklyn/canvas/7d19abed029287e7c26b14eaa6e67d560a37d853/LICENSE",
+          "sourceUrl": "https://raw.githubusercontent.com/Brooooooklyn/canvas/7d19abed029287e7c26b14eaa6e67d560a37d853/LICENSE",
+          "revision": "7d19abed029287e7c26b14eaa6e67d560a37d853",
+          "sha256": "8802fecf9da4367bc23bcf20b21cc143785fc6c92b152f3fa7fbe6ce08d344d6",
+          "bytes": 1075
+        }
+      ],
+      "metadataUrl": "https://registry.npmjs.org/%40napi-rs%2Fcanvas-darwin-arm64/1.0.10",
+      "revisionEvidence": "refs/tags/v1.0.10^{}"
+    },
+    {
+      "ecosystem": "npm",
+      "name": "@react-pdf/fns",
+      "version": "3.1.3",
+      "status": "full-text",
+      "files": [
+        {
+          "path": "licenses/upstream/diegomura/react-pdf/a8301b239f750ee2a74e851522daadc3718b30e3/LICENSE",
+          "sourceUrl": "https://raw.githubusercontent.com/diegomura/react-pdf/a8301b239f750ee2a74e851522daadc3718b30e3/LICENSE",
+          "revision": "a8301b239f750ee2a74e851522daadc3718b30e3",
+          "sha256": "686a2bd0f92962db92fea52d4eae2ef55ef75ae69eb9194faccb49bb831f0b58",
+          "bytes": 1101
+        }
+      ],
+      "metadataUrl": "https://registry.npmjs.org/%40react-pdf%2Ffns/3.1.3",
+      "revisionEvidence": "npm registry gitHead"
+    },
+    {
+      "ecosystem": "npm",
+      "name": "@react-pdf/font",
+      "version": "4.1.2",
+      "status": "full-text",
+      "files": [
+        {
+          "path": "licenses/upstream/diegomura/react-pdf/2c0b6d4a5d9db397d8cf5de4215e43b08ad5a7ca/LICENSE",
+          "sourceUrl": "https://raw.githubusercontent.com/diegomura/react-pdf/2c0b6d4a5d9db397d8cf5de4215e43b08ad5a7ca/LICENSE",
+          "revision": "2c0b6d4a5d9db397d8cf5de4215e43b08ad5a7ca",
+          "sha256": "0c96b643c00775e094e8daf2de5707013d740621b735b0e4ceb9fab7698ca2e4",
+          "bytes": 1109
+        }
+      ],
+      "metadataUrl": "https://registry.npmjs.org/%40react-pdf%2Ffont/4.1.2",
+      "revisionEvidence": "npm registry gitHead"
+    },
+    {
+      "ecosystem": "npm",
+      "name": "@react-pdf/hyphenate",
+      "version": "0.1.0",
+      "status": "full-text",
+      "files": [
+        {
+          "path": "licenses/upstream/diegomura/react-pdf/2c0b6d4a5d9db397d8cf5de4215e43b08ad5a7ca/LICENSE",
+          "sourceUrl": "https://raw.githubusercontent.com/diegomura/react-pdf/2c0b6d4a5d9db397d8cf5de4215e43b08ad5a7ca/LICENSE",
+          "revision": "2c0b6d4a5d9db397d8cf5de4215e43b08ad5a7ca",
+          "sha256": "0c96b643c00775e094e8daf2de5707013d740621b735b0e4ceb9fab7698ca2e4",
+          "bytes": 1109
+        }
+      ],
+      "metadataUrl": "https://registry.npmjs.org/%40react-pdf%2Fhyphenate/0.1.0",
+      "revisionEvidence": "Renderer dependency monorepo commit; package version checked separately",
+      "notes": "Registry omits gitHead. Renderer 4.9.0 monorepo commit contains packages/hyphenate/package.json with the exact installed name, version 0.1.0 and MIT declaration."
+    },
+    {
+      "ecosystem": "npm",
+      "name": "@react-pdf/image",
+      "version": "3.1.2",
+      "status": "full-text",
+      "files": [
+        {
+          "path": "licenses/upstream/diegomura/react-pdf/d5adf3db48fff165c433aaf5ba54600542700cff/LICENSE",
+          "sourceUrl": "https://raw.githubusercontent.com/diegomura/react-pdf/d5adf3db48fff165c433aaf5ba54600542700cff/LICENSE",
+          "revision": "d5adf3db48fff165c433aaf5ba54600542700cff",
+          "sha256": "0c96b643c00775e094e8daf2de5707013d740621b735b0e4ceb9fab7698ca2e4",
+          "bytes": 1109
+        }
+      ],
+      "metadataUrl": "https://registry.npmjs.org/%40react-pdf%2Fimage/3.1.2",
+      "revisionEvidence": "npm registry gitHead"
+    },
+    {
+      "ecosystem": "npm",
+      "name": "@react-pdf/layout",
+      "version": "5.2.0",
+      "status": "full-text",
+      "files": [
+        {
+          "path": "licenses/upstream/diegomura/react-pdf/2c0b6d4a5d9db397d8cf5de4215e43b08ad5a7ca/LICENSE",
+          "sourceUrl": "https://raw.githubusercontent.com/diegomura/react-pdf/2c0b6d4a5d9db397d8cf5de4215e43b08ad5a7ca/LICENSE",
+          "revision": "2c0b6d4a5d9db397d8cf5de4215e43b08ad5a7ca",
+          "sha256": "0c96b643c00775e094e8daf2de5707013d740621b735b0e4ceb9fab7698ca2e4",
+          "bytes": 1109
+        }
+      ],
+      "metadataUrl": "https://registry.npmjs.org/%40react-pdf%2Flayout/5.2.0",
+      "revisionEvidence": "npm registry gitHead"
+    },
+    {
+      "ecosystem": "npm",
+      "name": "@react-pdf/paginate",
+      "version": "1.0.1",
+      "status": "full-text",
+      "files": [
+        {
+          "path": "licenses/upstream/diegomura/react-pdf/1fe630e22c1172b1f61f782cd4c65fbf81393218/LICENSE",
+          "sourceUrl": "https://raw.githubusercontent.com/diegomura/react-pdf/1fe630e22c1172b1f61f782cd4c65fbf81393218/LICENSE",
+          "revision": "1fe630e22c1172b1f61f782cd4c65fbf81393218",
+          "sha256": "0c96b643c00775e094e8daf2de5707013d740621b735b0e4ceb9fab7698ca2e4",
+          "bytes": 1109
+        }
+      ],
+      "metadataUrl": "https://registry.npmjs.org/%40react-pdf%2Fpaginate/1.0.1",
+      "revisionEvidence": "npm registry gitHead"
+    },
+    {
+      "ecosystem": "npm",
+      "name": "@react-pdf/primitives",
+      "version": "4.4.0",
+      "status": "full-text",
+      "files": [
+        {
+          "path": "licenses/upstream/diegomura/react-pdf/d5adf3db48fff165c433aaf5ba54600542700cff/LICENSE",
+          "sourceUrl": "https://raw.githubusercontent.com/diegomura/react-pdf/d5adf3db48fff165c433aaf5ba54600542700cff/LICENSE",
+          "revision": "d5adf3db48fff165c433aaf5ba54600542700cff",
+          "sha256": "0c96b643c00775e094e8daf2de5707013d740621b735b0e4ceb9fab7698ca2e4",
+          "bytes": 1109
+        }
+      ],
+      "metadataUrl": "https://registry.npmjs.org/%40react-pdf%2Fprimitives/4.4.0",
+      "revisionEvidence": "npm registry gitHead"
+    },
+    {
+      "ecosystem": "npm",
+      "name": "@react-pdf/reconciler",
+      "version": "2.0.0",
+      "status": "full-text",
+      "files": [
+        {
+          "path": "licenses/upstream/diegomura/react-pdf/52e97fd0052f4e634d8b39143154e0a09ff98cba/LICENSE",
+          "sourceUrl": "https://raw.githubusercontent.com/diegomura/react-pdf/52e97fd0052f4e634d8b39143154e0a09ff98cba/LICENSE",
+          "revision": "52e97fd0052f4e634d8b39143154e0a09ff98cba",
+          "sha256": "686a2bd0f92962db92fea52d4eae2ef55ef75ae69eb9194faccb49bb831f0b58",
+          "bytes": 1101
+        }
+      ],
+      "metadataUrl": "https://registry.npmjs.org/%40react-pdf%2Freconciler/2.0.0",
+      "revisionEvidence": "npm registry gitHead"
+    },
+    {
+      "ecosystem": "npm",
+      "name": "@react-pdf/render",
+      "version": "4.7.0",
+      "status": "full-text",
+      "files": [
+        {
+          "path": "licenses/upstream/diegomura/react-pdf/2c0b6d4a5d9db397d8cf5de4215e43b08ad5a7ca/LICENSE",
+          "sourceUrl": "https://raw.githubusercontent.com/diegomura/react-pdf/2c0b6d4a5d9db397d8cf5de4215e43b08ad5a7ca/LICENSE",
+          "revision": "2c0b6d4a5d9db397d8cf5de4215e43b08ad5a7ca",
+          "sha256": "0c96b643c00775e094e8daf2de5707013d740621b735b0e4ceb9fab7698ca2e4",
+          "bytes": 1109
+        }
+      ],
+      "metadataUrl": "https://registry.npmjs.org/%40react-pdf%2Frender/4.7.0",
+      "revisionEvidence": "npm registry gitHead"
+    },
+    {
+      "ecosystem": "npm",
+      "name": "@react-pdf/renderer",
+      "version": "4.9.0",
+      "status": "full-text",
+      "files": [
+        {
+          "path": "licenses/upstream/diegomura/react-pdf/2c0b6d4a5d9db397d8cf5de4215e43b08ad5a7ca/LICENSE",
+          "sourceUrl": "https://raw.githubusercontent.com/diegomura/react-pdf/2c0b6d4a5d9db397d8cf5de4215e43b08ad5a7ca/LICENSE",
+          "revision": "2c0b6d4a5d9db397d8cf5de4215e43b08ad5a7ca",
+          "sha256": "0c96b643c00775e094e8daf2de5707013d740621b735b0e4ceb9fab7698ca2e4",
+          "bytes": 1109
+        }
+      ],
+      "metadataUrl": "https://registry.npmjs.org/%40react-pdf%2Frenderer/4.9.0",
+      "revisionEvidence": "npm registry gitHead"
+    },
+    {
+      "ecosystem": "npm",
+      "name": "@react-pdf/stylesheet",
+      "version": "6.3.2",
+      "status": "full-text",
+      "files": [
+        {
+          "path": "licenses/upstream/diegomura/react-pdf/2c0b6d4a5d9db397d8cf5de4215e43b08ad5a7ca/LICENSE",
+          "sourceUrl": "https://raw.githubusercontent.com/diegomura/react-pdf/2c0b6d4a5d9db397d8cf5de4215e43b08ad5a7ca/LICENSE",
+          "revision": "2c0b6d4a5d9db397d8cf5de4215e43b08ad5a7ca",
+          "sha256": "0c96b643c00775e094e8daf2de5707013d740621b735b0e4ceb9fab7698ca2e4",
+          "bytes": 1109
+        }
+      ],
+      "metadataUrl": "https://registry.npmjs.org/%40react-pdf%2Fstylesheet/6.3.2",
+      "revisionEvidence": "npm registry gitHead"
+    },
+    {
+      "ecosystem": "npm",
+      "name": "@react-pdf/svg",
+      "version": "1.1.1",
+      "status": "full-text",
+      "files": [
+        {
+          "path": "licenses/upstream/diegomura/react-pdf/d5adf3db48fff165c433aaf5ba54600542700cff/LICENSE",
+          "sourceUrl": "https://raw.githubusercontent.com/diegomura/react-pdf/d5adf3db48fff165c433aaf5ba54600542700cff/LICENSE",
+          "revision": "d5adf3db48fff165c433aaf5ba54600542700cff",
+          "sha256": "0c96b643c00775e094e8daf2de5707013d740621b735b0e4ceb9fab7698ca2e4",
+          "bytes": 1109
+        }
+      ],
+      "metadataUrl": "https://registry.npmjs.org/%40react-pdf%2Fsvg/1.1.1",
+      "revisionEvidence": "npm registry gitHead"
+    },
+    {
+      "ecosystem": "npm",
+      "name": "@react-pdf/textkit",
+      "version": "7.0.1",
+      "status": "full-text",
+      "files": [
+        {
+          "path": "licenses/upstream/diegomura/react-pdf/8c047bd26d3d0a46eee0238659100f68a7a7b881/LICENSE",
+          "sourceUrl": "https://raw.githubusercontent.com/diegomura/react-pdf/8c047bd26d3d0a46eee0238659100f68a7a7b881/LICENSE",
+          "revision": "8c047bd26d3d0a46eee0238659100f68a7a7b881",
+          "sha256": "0c96b643c00775e094e8daf2de5707013d740621b735b0e4ceb9fab7698ca2e4",
+          "bytes": 1109
+        }
+      ],
+      "metadataUrl": "https://registry.npmjs.org/%40react-pdf%2Ftextkit/7.0.1",
+      "revisionEvidence": "npm registry gitHead"
+    },
+    {
+      "ecosystem": "npm",
+      "name": "@react-pdf/types",
+      "version": "2.14.0",
+      "status": "full-text",
+      "files": [
+        {
+          "path": "licenses/upstream/diegomura/react-pdf/2c0b6d4a5d9db397d8cf5de4215e43b08ad5a7ca/LICENSE",
+          "sourceUrl": "https://raw.githubusercontent.com/diegomura/react-pdf/2c0b6d4a5d9db397d8cf5de4215e43b08ad5a7ca/LICENSE",
+          "revision": "2c0b6d4a5d9db397d8cf5de4215e43b08ad5a7ca",
+          "sha256": "0c96b643c00775e094e8daf2de5707013d740621b735b0e4ceb9fab7698ca2e4",
+          "bytes": 1109
+        }
+      ],
+      "metadataUrl": "https://registry.npmjs.org/%40react-pdf%2Ftypes/2.14.0",
+      "revisionEvidence": "npm registry gitHead"
+    },
+    {
+      "ecosystem": "npm",
+      "name": "@rolldown/binding-darwin-arm64",
+      "version": "1.2.12",
+      "status": "full-text",
+      "files": [
+        {
+          "path": "licenses/upstream/rolldown/rolldown/45e407b177f5885d04a9795f37f8be71d91f6f17/LICENSE",
+          "sourceUrl": "https://raw.githubusercontent.com/rolldown/rolldown/45e407b177f5885d04a9795f37f8be71d91f6f17/LICENSE",
+          "revision": "45e407b177f5885d04a9795f37f8be71d91f6f17",
+          "sha256": "23ecfff35a5a2e80d92142f75228912c3b1abc4b5a8337a821ff4397e2f9f734",
+          "bytes": 1302
+        }
+      ],
+      "metadataUrl": "https://registry.npmjs.org/%40rolldown%2Fbinding-darwin-arm64/1.2.12",
+      "revisionEvidence": "refs/tags/v1.2.12"
+    },
+    {
+      "ecosystem": "npm",
+      "name": "abs-svg-path",
+      "version": "0.1.1",
+      "status": "full-text",
+      "files": [
+        {
+          "path": "licenses/upstream/jkroso/abs-svg-path/f0f57c97b12cdc4fc1d94798256fba357394e40a/License",
+          "sourceUrl": "https://raw.githubusercontent.com/jkroso/abs-svg-path/f0f57c97b12cdc4fc1d94798256fba357394e40a/License",
+          "revision": "f0f57c97b12cdc4fc1d94798256fba357394e40a",
+          "sha256": "2d5ffdfe09268750ba687a149db8392038772e7f156db3a98b615a7de0cab76e",
+          "bytes": 1093
+        }
+      ],
+      "metadataUrl": "https://registry.npmjs.org/abs-svg-path/0.1.1",
+      "revisionEvidence": "refs/tags/0.1.1^{}"
+    },
+    {
+      "ecosystem": "npm",
+      "name": "miniflare",
+      "version": "5.20261001.0-alpha",
+      "status": "full-text",
+      "files": [
+        {
+          "path": "licenses/upstream/cloudflare/workers-sdk/b4954c17b93a8da7223c7fa5b128a27812f18b86/LICENSE-MIT",
+          "sourceUrl": "https://raw.githubusercontent.com/cloudflare/workers-sdk/b4954c17b93a8da7223c7fa5b128a27812f18b86/LICENSE-MIT",
+          "revision": "b4954c17b93a8da7223c7fa5b128a27812f18b86",
+          "sha256": "9bb3b077cc8628334bab25961223dd8207252c8a56aa054195be38f1c042aaf4",
+          "bytes": 1086
+        }
+      ],
+      "metadataUrl": "https://registry.npmjs.org/miniflare/5.20261001.0-alpha",
+      "revisionEvidence": "refs/tags/miniflare@5.20261001.0-alpha^{}"
+    },
+    {
+      "ecosystem": "npm",
+      "name": "workerd",
+      "version": "1.20261001.1",
+      "status": "full-text",
+      "files": [
+        {
+          "path": "licenses/upstream/cloudflare/workerd/402f058c655b01fa58ba1ed711061cf3bc7d896b/LICENSE",
+          "sourceUrl": "https://raw.githubusercontent.com/cloudflare/workerd/402f058c655b01fa58ba1ed711061cf3bc7d896b/LICENSE",
+          "revision": "402f058c655b01fa58ba1ed711061cf3bc7d896b",
+          "sha256": "0d542e0c8804e39aa7f37eb00da5a762149dc682d7829451287e11b938e94594",
+          "bytes": 10174
+        }
+      ],
+      "metadataUrl": "https://registry.npmjs.org/workerd/1.20261001.1",
+      "revisionEvidence": "npm registry gitHead"
+    },
+    {
+      "ecosystem": "npm",
+      "name": "wrangler",
+      "version": "4.147.0",
+      "status": "full-text",
+      "files": [
+        {
+          "path": "licenses/upstream/cloudflare/workers-sdk/64c1337155a6bc7224b5d47f58ca521d8b8ee3fe/LICENSE-APACHE",
+          "sourceUrl": "https://raw.githubusercontent.com/cloudflare/workers-sdk/64c1337155a6bc7224b5d47f58ca521d8b8ee3fe/LICENSE-APACHE",
+          "revision": "64c1337155a6bc7224b5d47f58ca521d8b8ee3fe",
+          "sha256": "62c7a1e35f56406896d7aa7ca52d0cc0d272ac022b5d2796e7d6905db8a3636a",
+          "bytes": 9723
+        },
+        {
+          "path": "licenses/upstream/cloudflare/workers-sdk/64c1337155a6bc7224b5d47f58ca521d8b8ee3fe/LICENSE-MIT",
+          "sourceUrl": "https://raw.githubusercontent.com/cloudflare/workers-sdk/64c1337155a6bc7224b5d47f58ca521d8b8ee3fe/LICENSE-MIT",
+          "revision": "64c1337155a6bc7224b5d47f58ca521d8b8ee3fe",
+          "sha256": "9bb3b077cc8628334bab25961223dd8207252c8a56aa054195be38f1c042aaf4",
+          "bytes": 1086
+        }
+      ],
+      "metadataUrl": "https://registry.npmjs.org/wrangler/4.147.0",
+      "revisionEvidence": "refs/tags/wrangler@4.147.0^{}"
+    },
+    {
+      "ecosystem": "npm",
+      "name": "yoga-layout",
+      "version": "3.2.1",
+      "status": "full-text",
+      "files": [
+        {
+          "path": "licenses/upstream/facebook/yoga/042f5013152eb81c1552dec945b88f7b95ca350f/LICENSE",
+          "sourceUrl": "https://raw.githubusercontent.com/facebook/yoga/042f5013152eb81c1552dec945b88f7b95ca350f/LICENSE",
+          "revision": "042f5013152eb81c1552dec945b88f7b95ca350f",
+          "sha256": "52412d7bc7ce4157ea628bbaacb8829e0a9cb3c58f57f99176126bc8cf2bfc85",
+          "bytes": 1086
+        }
+      ],
+      "metadataUrl": "https://registry.npmjs.org/yoga-layout/3.2.1",
+      "revisionEvidence": "refs/tags/v3.2.1"
+    },
+    {
+      "ecosystem": "python",
+      "name": "pyluach",
+      "version": "2.3.0",
+      "status": "full-text",
+      "metadataUrl": "https://pypi.org/pypi/pyluach/2.3.0/json",
+      "files": [
+        {
+          "path": "licenses/upstream/pyluach/2.3.0/license.txt",
+          "sourceUrl": "https://files.pythonhosted.org/packages/11/11/42568c1568a75f8803c59f26d29af01a0890352b7a8e03d41ecda8bfb5dd/pyluach-2.3.0.tar.gz",
+          "revision": "sdist-sha256:ec6e30669d1df50c9ca160486da44a8195bb4c7a5d3d533990d0c5b03accd281",
+          "sha256": "a6900a379815872f27df1aac58d8c249ddd085259f6bab6768e162cc82d346b1",
+          "bytes": 1123,
+          "archiveMember": "pyluach-2.3.0/license.txt",
+          "archiveSha256": "ec6e30669d1df50c9ca160486da44a8195bb4c7a5d3d533990d0c5b03accd281"
+        }
+      ],
+      "notes": "Copied from the versioned official PyPI sdist after validating its SHA-256 against PyPI metadata; no full package archive is redistributed."
+    }
+  ],
+  "unresolved": [
+    {
+      "ecosystem": "npm",
+      "name": "@img/sharp-libvips-darwin-arm64",
+      "version": "1.3.4",
+      "reason": "Development-only native binary bundle declares LGPL-3.0-or-later plus many component licenses. The packaging repository root Apache license does not replace the binary component notices. Preserve its upstream component table and versions; native binaries are excluded from the release ZIP.",
+      "evidenceFiles": [
+        {
+          "path": "licenses/upstream/declarations/_img_sharp-libvips-darwin-arm64-1.3.4/UPSTREAM-package.json",
+          "sourceUrl": "https://registry.npmjs.org/@img/sharp-libvips-darwin-arm64/-/sharp-libvips-darwin-arm64-1.3.4.tgz",
+          "revision": "npm-tarball-sha256:e8350e62344d027995ef46cdd97a5ea1c88bc54ab82ab8c3fcb0c076d839675f",
+          "sha256": "394ecfe4e823ebf6ddc9f9b7155046aad1f0492300920323ddfb84cae85dbac0",
+          "bytes": 876,
+          "archiveMember": "package/package.json",
+          "archiveSha256": "e8350e62344d027995ef46cdd97a5ea1c88bc54ab82ab8c3fcb0c076d839675f",
+          "archiveIntegrity": "sha512-5R89nBYiRdUlSWJxPhO+GVtaXzXSxKnRu/xqMn3KTA3L9EB9Oy/P+Nn2f2vlhPuUdy/Zusb2DarbyTpGCfEDuw==",
+          "contentKind": "license-declaration-or-source-metadata"
+        },
+        {
+          "path": "licenses/upstream/declarations/_img_sharp-libvips-darwin-arm64-1.3.4/UPSTREAM-versions.json",
+          "sourceUrl": "https://registry.npmjs.org/@img/sharp-libvips-darwin-arm64/-/sharp-libvips-darwin-arm64-1.3.4.tgz",
+          "revision": "npm-tarball-sha256:e8350e62344d027995ef46cdd97a5ea1c88bc54ab82ab8c3fcb0c076d839675f",
+          "sha256": "e2611d5d854815a8b33c8a3d2ec649511a9596ccf16844e8eae7cf81e79881c4",
+          "bytes": 596,
+          "archiveMember": "package/versions.json",
+          "archiveSha256": "e8350e62344d027995ef46cdd97a5ea1c88bc54ab82ab8c3fcb0c076d839675f",
+          "archiveIntegrity": "sha512-5R89nBYiRdUlSWJxPhO+GVtaXzXSxKnRu/xqMn3KTA3L9EB9Oy/P+Nn2f2vlhPuUdy/Zusb2DarbyTpGCfEDuw==",
+          "contentKind": "license-declaration-or-source-metadata"
+        },
+        {
+          "path": "licenses/upstream/declarations/_img_sharp-libvips-darwin-arm64-1.3.4/UPSTREAM-README.md",
+          "sourceUrl": "https://registry.npmjs.org/@img/sharp-libvips-darwin-arm64/-/sharp-libvips-darwin-arm64-1.3.4.tgz",
+          "revision": "npm-tarball-sha256:e8350e62344d027995ef46cdd97a5ea1c88bc54ab82ab8c3fcb0c076d839675f",
+          "sha256": "5dd6d3c034f925604681d49b7bedc71bd08dcf3d0cfc6d16b9f0569497d700dc",
+          "bytes": 4333,
+          "archiveMember": "package/README.md",
+          "archiveSha256": "e8350e62344d027995ef46cdd97a5ea1c88bc54ab82ab8c3fcb0c076d839675f",
+          "archiveIntegrity": "sha512-5R89nBYiRdUlSWJxPhO+GVtaXzXSxKnRu/xqMn3KTA3L9EB9Oy/P+Nn2f2vlhPuUdy/Zusb2DarbyTpGCfEDuw==",
+          "contentKind": "license-declaration-or-source-metadata"
+        },
+        {
+          "path": "licenses/standard/LGPL-3.0-or-later.txt",
+          "sourceUrl": "https://raw.githubusercontent.com/spdx/license-list-data/31ba1a50e5397e00a304dbadc76531740e89ee48/text/LGPL-3.0-or-later.txt",
+          "revision": "31ba1a50e5397e00a304dbadc76531740e89ee48",
+          "sha256": "996af0513df21f7496288951c41428a03c174e9e4a9d63665c57d670f845ccb1",
+          "bytes": 42098,
+          "contentKind": "canonical-standard-license-text-not-an-original-package-copyright-notice"
+        }
+      ],
+      "classification": "native-component-notices-not-shipped",
+      "interpretation": "Preserved SPDX/package declarations are upstream licensing evidence. The standard text is supplied separately and does not invent a package copyright, resolve conflicting declarations, or constitute a legal-clearance determination.",
+      "remainingGap": "Native binary and node_modules are excluded from the source release. Component table, versions and declared terms are preserved; redistribution of the native binary would require a separate component/source-obligation review."
+    },
+    {
+      "ecosystem": "npm",
+      "name": "brotli",
+      "version": "1.3.3",
+      "reason": "The JavaScript decoder explicitly carries Google Copyright 2013 and Apache-2.0; its original header and referenced Apache text are preserved. The package-level README separately declares MIT without original full MIT text. This partial component attribution does not resolve the whole package notice gap.",
+      "evidenceFiles": [
+        {
+          "path": "licenses/upstream/declarations/brotli-1.3.3/UPSTREAM-package.json",
+          "sourceUrl": "https://registry.npmjs.org/brotli/-/brotli-1.3.3.tgz",
+          "revision": "npm-tarball-sha256:3c7c260f6263df95fee49a9119e9fd21227d628b6c9d99080a75edfd9e2bdb24",
+          "sha256": "387b47d00ea96cab9b4c521629fbcdc7621053ac061812526f3c69700924cef5",
+          "bytes": 786,
+          "archiveMember": "package/package.json",
+          "archiveSha256": "3c7c260f6263df95fee49a9119e9fd21227d628b6c9d99080a75edfd9e2bdb24",
+          "archiveIntegrity": "sha512-oTKjJdShmDuGW94SyyaoQvAjf30dZaHnjJ8uAF+u2/vGJkJbJPJAT1gDiOJP5v1Zb6f9KEyW/1HpuaWIXtGHPg==",
+          "contentKind": "license-declaration-or-source-metadata"
+        },
+        {
+          "path": "licenses/upstream/declarations/brotli-1.3.3/UPSTREAM-readme.md",
+          "sourceUrl": "https://registry.npmjs.org/brotli/-/brotli-1.3.3.tgz",
+          "revision": "npm-tarball-sha256:3c7c260f6263df95fee49a9119e9fd21227d628b6c9d99080a75edfd9e2bdb24",
+          "sha256": "8a8bac543fccf52a64708ff3315ca2be90e3e4c270634df1e4e4b51f0ee9c5d7",
+          "bytes": 1913,
+          "archiveMember": "package/readme.md",
+          "archiveSha256": "3c7c260f6263df95fee49a9119e9fd21227d628b6c9d99080a75edfd9e2bdb24",
+          "archiveIntegrity": "sha512-oTKjJdShmDuGW94SyyaoQvAjf30dZaHnjJ8uAF+u2/vGJkJbJPJAT1gDiOJP5v1Zb6f9KEyW/1HpuaWIXtGHPg==",
+          "contentKind": "license-declaration-or-source-metadata"
+        },
+        {
+          "path": "licenses/upstream/brotli/e36051345f6d27a56e5f39ea70d2f789b8574046/COPYRIGHT-decoder.txt",
+          "sourceUrl": "https://raw.githubusercontent.com/devongovett/brotli.js/e36051345f6d27a56e5f39ea70d2f789b8574046/dec/decode.js",
+          "revision": "e36051345f6d27a56e5f39ea70d2f789b8574046",
+          "sha256": "bc670957aaf188b069c48d4afe455bf0c276ec0f37994bdf435e3ad89e22a8a8",
+          "bytes": 602,
+          "contentKind": "verbatim-license-header",
+          "sourceSha256": "f66d1fd1ea9e54c843b7f5f4bc02cf028f28fed69404f279f86869b097dace5e",
+          "extraction": "Initial block comment, copied verbatim; one trailing newline added."
+        },
+        {
+          "path": "licenses/upstream/brotli/Apache-2.0.txt",
+          "sourceUrl": "https://www.apache.org/licenses/LICENSE-2.0.txt",
+          "revision": "Apache-2.0",
+          "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+          "bytes": 11358,
+          "contentKind": "license-text-referenced-by-upstream-header"
+        },
+        {
+          "path": "licenses/standard/MIT.txt",
+          "sourceUrl": "https://raw.githubusercontent.com/spdx/license-list-data/31ba1a50e5397e00a304dbadc76531740e89ee48/text/MIT.txt",
+          "revision": "31ba1a50e5397e00a304dbadc76531740e89ee48",
+          "sha256": "b05785f9f18e6716bab63424b11454513b9943a222595b70411009202fc592b5",
+          "bytes": 1078,
+          "contentKind": "canonical-standard-license-text-not-an-original-package-copyright-notice"
+        }
+      ],
+      "classification": "package-declaration-with-component-notices",
+      "interpretation": "Preserved SPDX/package declarations are upstream licensing evidence. The standard text is supplied separately and does not invent a package copyright, resolve conflicting declarations, or constitute a legal-clearance determination.",
+      "remainingGap": "Known original component notices are preserved. Original full package-level MIT notice unavailable; package declaration and canonical MIT text remain separately labeled."
+    },
+    {
+      "ecosystem": "npm",
+      "name": "dfa",
+      "version": "1.2.0",
+      "reason": "The exact installed npm tarball and its official source revision contain a license declaration but no original full license text; no generic template was substituted.",
+      "evidenceFiles": [
+        {
+          "path": "licenses/upstream/declarations/dfa-1.2.0/UPSTREAM-package.json",
+          "sourceUrl": "https://registry.npmjs.org/dfa/-/dfa-1.2.0.tgz",
+          "revision": "npm-tarball-sha256:d781eb3a307ab6aa2d97028f695b17dbeadf6fd27788c333b1fb96d18d2a23ad",
+          "sha256": "96c0ce3cc17b34aabd58fd442157766d9e244cba735e54ee4fe10d7841f0460c",
+          "bytes": 978,
+          "archiveMember": "package/package.json",
+          "archiveSha256": "d781eb3a307ab6aa2d97028f695b17dbeadf6fd27788c333b1fb96d18d2a23ad",
+          "archiveIntegrity": "sha512-ED3jP8saaweFTjeGX8HQPjeC1YYyZs98jGNZx6IiBvxW7JG5v492kamAQB3m2wop07CvU/RQmzcKr6bgcC5D/Q==",
+          "contentKind": "license-declaration-or-source-metadata"
+        },
+        {
+          "path": "licenses/upstream/declarations/dfa-1.2.0/UPSTREAM-README.md",
+          "sourceUrl": "https://registry.npmjs.org/dfa/-/dfa-1.2.0.tgz",
+          "revision": "npm-tarball-sha256:d781eb3a307ab6aa2d97028f695b17dbeadf6fd27788c333b1fb96d18d2a23ad",
+          "sha256": "30bd445925aa53205ff7f9afa6a43e21358fab656e471df6e028431aefc426c7",
+          "bytes": 3201,
+          "archiveMember": "package/README.md",
+          "archiveSha256": "d781eb3a307ab6aa2d97028f695b17dbeadf6fd27788c333b1fb96d18d2a23ad",
+          "archiveIntegrity": "sha512-ED3jP8saaweFTjeGX8HQPjeC1YYyZs98jGNZx6IiBvxW7JG5v492kamAQB3m2wop07CvU/RQmzcKr6bgcC5D/Q==",
+          "contentKind": "license-declaration-or-source-metadata"
+        },
+        {
+          "path": "licenses/standard/MIT.txt",
+          "sourceUrl": "https://raw.githubusercontent.com/spdx/license-list-data/31ba1a50e5397e00a304dbadc76531740e89ee48/text/MIT.txt",
+          "revision": "31ba1a50e5397e00a304dbadc76531740e89ee48",
+          "sha256": "b05785f9f18e6716bab63424b11454513b9943a222595b70411009202fc592b5",
+          "bytes": 1078,
+          "contentKind": "canonical-standard-license-text-not-an-original-package-copyright-notice"
+        }
+      ],
+      "classification": "declared-license-without-standalone-notice",
+      "interpretation": "Preserved SPDX/package declarations are upstream licensing evidence. The standard text is supplied separately and does not invent a package copyright, resolve conflicting declarations, or constitute a legal-clearance determination.",
+      "remainingGap": "Original standalone package notice unavailable; published license declaration and canonical license terms are preserved. No missing notice was fabricated from author metadata."
+    },
+    {
+      "ecosystem": "npm",
+      "name": "fontkit",
+      "version": "2.0.4",
+      "reason": "The exact installed npm tarball and its official source revision contain a license declaration but no original full license text; no generic template was substituted.",
+      "evidenceFiles": [
+        {
+          "path": "licenses/upstream/declarations/fontkit-2.0.4/UPSTREAM-package.json",
+          "sourceUrl": "https://registry.npmjs.org/fontkit/-/fontkit-2.0.4.tgz",
+          "revision": "npm-tarball-sha256:f686a9515af33fce16ab4bffe50570728197e53165068548c6f75a1793797a08",
+          "sha256": "49c60605b92316a5d5fe57b9a3bca8950ad9a8beab1cb633d6f29862d1bd163d",
+          "bytes": 2432,
+          "archiveMember": "package/package.json",
+          "archiveSha256": "f686a9515af33fce16ab4bffe50570728197e53165068548c6f75a1793797a08",
+          "archiveIntegrity": "sha512-syetQadaUEDNdxdugga9CpEYVaQIxOwk7GlwZWWZ19//qW4zE5bknOKeMBDYAASwnpaSHKJITRLMF9m1fp3s6g==",
+          "contentKind": "license-declaration-or-source-metadata"
+        },
+        {
+          "path": "licenses/upstream/declarations/fontkit-2.0.4/UPSTREAM-README.md",
+          "sourceUrl": "https://registry.npmjs.org/fontkit/-/fontkit-2.0.4.tgz",
+          "revision": "npm-tarball-sha256:f686a9515af33fce16ab4bffe50570728197e53165068548c6f75a1793797a08",
+          "sha256": "8a1cf12d8ae7277f047c3000af7677927f2da9243627223ba5715d40df4979d6",
+          "bytes": 13254,
+          "archiveMember": "package/README.md",
+          "archiveSha256": "f686a9515af33fce16ab4bffe50570728197e53165068548c6f75a1793797a08",
+          "archiveIntegrity": "sha512-syetQadaUEDNdxdugga9CpEYVaQIxOwk7GlwZWWZ19//qW4zE5bknOKeMBDYAASwnpaSHKJITRLMF9m1fp3s6g==",
+          "contentKind": "license-declaration-or-source-metadata"
+        },
+        {
+          "path": "licenses/standard/MIT.txt",
+          "sourceUrl": "https://raw.githubusercontent.com/spdx/license-list-data/31ba1a50e5397e00a304dbadc76531740e89ee48/text/MIT.txt",
+          "revision": "31ba1a50e5397e00a304dbadc76531740e89ee48",
+          "sha256": "b05785f9f18e6716bab63424b11454513b9943a222595b70411009202fc592b5",
+          "bytes": 1078,
+          "contentKind": "canonical-standard-license-text-not-an-original-package-copyright-notice"
+        }
+      ],
+      "classification": "declared-license-without-standalone-notice",
+      "interpretation": "Preserved SPDX/package declarations are upstream licensing evidence. The standard text is supplied separately and does not invent a package copyright, resolve conflicting declarations, or constitute a legal-clearance determination.",
+      "remainingGap": "Original standalone package notice unavailable; published license declaration and canonical license terms are preserved. No missing notice was fabricated from author metadata.",
+      "sourceAudit": {
+        "packageRevision": "fbf3b9ef21eebd219eb73e666faed573af0fba09",
+        "issueUrl": "https://github.com/foliojs/fontkit/issues/255",
+        "unmergedProposalUrl": "https://github.com/foliojs/fontkit/pull/300",
+        "finding": "The proposed LICENSE remains unmerged and was copied from a different package; it was not adopted as authoritative fontkit text."
+      }
+    },
+    {
+      "ecosystem": "npm",
+      "name": "hsl-to-hex",
+      "version": "1.0.0",
+      "reason": "Exact published 1.0.0 package.json declares MIT, while its README declares ISC. No original full license text was found. The discrepancy is preserved, not resolved by choosing one label.",
+      "evidenceFiles": [
+        {
+          "path": "licenses/upstream/declarations/hsl-to-hex-1.0.0/UPSTREAM-package.json",
+          "sourceUrl": "https://registry.npmjs.org/hsl-to-hex/-/hsl-to-hex-1.0.0.tgz",
+          "revision": "npm-tarball-sha256:0ca2a567608c33d131e58ee76d34070ea727b304161de7ef5683610c07fc08b2",
+          "sha256": "b894a829eda1e1fb14a5e91c4b8234d684a3a8c146af1175dafd1e0832555034",
+          "bytes": 732,
+          "archiveMember": "package/package.json",
+          "archiveSha256": "0ca2a567608c33d131e58ee76d34070ea727b304161de7ef5683610c07fc08b2",
+          "archiveIntegrity": "sha512-K6GVpucS5wFf44X0h2bLVRDsycgJmf9FF2elg+CrqD8GcFU8c6vYhgXn8NjUkFCwj+xDFb70qgLbTUm6sxwPmA==",
+          "contentKind": "license-declaration-or-source-metadata"
+        },
+        {
+          "path": "licenses/upstream/declarations/hsl-to-hex-1.0.0/UPSTREAM-readme.md",
+          "sourceUrl": "https://registry.npmjs.org/hsl-to-hex/-/hsl-to-hex-1.0.0.tgz",
+          "revision": "npm-tarball-sha256:0ca2a567608c33d131e58ee76d34070ea727b304161de7ef5683610c07fc08b2",
+          "sha256": "f11ef9f25e43542f30b9e00d4c42a6372c3e84def2acb54b99e95e28aee1a561",
+          "bytes": 370,
+          "archiveMember": "package/readme.md",
+          "archiveSha256": "0ca2a567608c33d131e58ee76d34070ea727b304161de7ef5683610c07fc08b2",
+          "archiveIntegrity": "sha512-K6GVpucS5wFf44X0h2bLVRDsycgJmf9FF2elg+CrqD8GcFU8c6vYhgXn8NjUkFCwj+xDFb70qgLbTUm6sxwPmA==",
+          "contentKind": "license-declaration-or-source-metadata"
+        },
+        {
+          "path": "licenses/standard/MIT.txt",
+          "sourceUrl": "https://raw.githubusercontent.com/spdx/license-list-data/31ba1a50e5397e00a304dbadc76531740e89ee48/text/MIT.txt",
+          "revision": "31ba1a50e5397e00a304dbadc76531740e89ee48",
+          "sha256": "b05785f9f18e6716bab63424b11454513b9943a222595b70411009202fc592b5",
+          "bytes": 1078,
+          "contentKind": "canonical-standard-license-text-not-an-original-package-copyright-notice"
+        },
+        {
+          "path": "licenses/standard/ISC.txt",
+          "sourceUrl": "https://raw.githubusercontent.com/spdx/license-list-data/31ba1a50e5397e00a304dbadc76531740e89ee48/text/ISC.txt",
+          "revision": "31ba1a50e5397e00a304dbadc76531740e89ee48",
+          "sha256": "521c6f0ed8e64736684f89843d16a4df6b4b7449acbcfc6ca6630a3037ca8c53",
+          "bytes": 737,
+          "contentKind": "canonical-standard-license-text-not-an-original-package-copyright-notice"
+        }
+      ],
+      "classification": "conflicting-declarations",
+      "interpretation": "Preserved SPDX/package declarations are upstream licensing evidence. The standard text is supplied separately and does not invent a package copyright, resolve conflicting declarations, or constitute a legal-clearance determination.",
+      "remainingGap": "Actual published declaration conflict: package.json MIT versus README ISC. Both declarations and both canonical texts are preserved; no choice or dual-license grant is inferred."
+    },
+    {
+      "ecosystem": "npm",
+      "name": "hsl-to-rgb-for-reals",
+      "version": "1.1.1",
+      "reason": "Exact published package.json declares ISC, but no full notice or copyright license text was found in the tarball or official published source revision.",
+      "evidenceFiles": [
+        {
+          "path": "licenses/upstream/declarations/hsl-to-rgb-for-reals-1.1.1/UPSTREAM-package.json",
+          "sourceUrl": "https://registry.npmjs.org/hsl-to-rgb-for-reals/-/hsl-to-rgb-for-reals-1.1.1.tgz",
+          "revision": "npm-tarball-sha256:48f177b95cfed52c5ffd544ebbb125841e5dd7170b09c2443bb09e3f0208c533",
+          "sha256": "cac80a03f917d0cf59fa3ca9e63c2afe130599015d69701819b28ca733d4a22e",
+          "bytes": 663,
+          "archiveMember": "package/package.json",
+          "archiveSha256": "48f177b95cfed52c5ffd544ebbb125841e5dd7170b09c2443bb09e3f0208c533",
+          "archiveIntegrity": "sha512-LgOWAkrN0rFaQpfdWBQlv/VhkOxb5AsBjk6NQVx4yEzWS923T07X0M1Y0VNko2H52HeSpZrZNNMJ0aFqsdVzQg==",
+          "contentKind": "license-declaration-or-source-metadata"
+        },
+        {
+          "path": "licenses/upstream/declarations/hsl-to-rgb-for-reals-1.1.1/UPSTREAM-README.md",
+          "sourceUrl": "https://registry.npmjs.org/hsl-to-rgb-for-reals/-/hsl-to-rgb-for-reals-1.1.1.tgz",
+          "revision": "npm-tarball-sha256:48f177b95cfed52c5ffd544ebbb125841e5dd7170b09c2443bb09e3f0208c533",
+          "sha256": "2906d1ff6b6dfa6c2e4542437b8663364136744fa67628bc99b92c2e9ab6067e",
+          "bytes": 889,
+          "archiveMember": "package/README.md",
+          "archiveSha256": "48f177b95cfed52c5ffd544ebbb125841e5dd7170b09c2443bb09e3f0208c533",
+          "archiveIntegrity": "sha512-LgOWAkrN0rFaQpfdWBQlv/VhkOxb5AsBjk6NQVx4yEzWS923T07X0M1Y0VNko2H52HeSpZrZNNMJ0aFqsdVzQg==",
+          "contentKind": "license-declaration-or-source-metadata"
+        },
+        {
+          "path": "licenses/standard/ISC.txt",
+          "sourceUrl": "https://raw.githubusercontent.com/spdx/license-list-data/31ba1a50e5397e00a304dbadc76531740e89ee48/text/ISC.txt",
+          "revision": "31ba1a50e5397e00a304dbadc76531740e89ee48",
+          "sha256": "521c6f0ed8e64736684f89843d16a4df6b4b7449acbcfc6ca6630a3037ca8c53",
+          "bytes": 737,
+          "contentKind": "canonical-standard-license-text-not-an-original-package-copyright-notice"
+        }
+      ],
+      "classification": "declared-license-without-standalone-notice",
+      "interpretation": "Preserved SPDX/package declarations are upstream licensing evidence. The standard text is supplied separately and does not invent a package copyright, resolve conflicting declarations, or constitute a legal-clearance determination.",
+      "remainingGap": "Original standalone package notice unavailable; published license declaration and canonical license terms are preserved. No missing notice was fabricated from author metadata."
+    },
+    {
+      "ecosystem": "npm",
+      "name": "media-engine",
+      "version": "2.0.0",
+      "reason": "The exact installed npm tarball and its official source revision contain a license declaration but no original full license text; no generic template was substituted.",
+      "evidenceFiles": [
+        {
+          "path": "licenses/upstream/declarations/media-engine-2.0.0/UPSTREAM-package.json",
+          "sourceUrl": "https://registry.npmjs.org/media-engine/-/media-engine-2.0.0.tgz",
+          "revision": "npm-tarball-sha256:04a5a7b0aa8825d5eb7448031a6f11514ccd42d9d0c51d6c43e827eb27b36e97",
+          "sha256": "58661b3c6250138b3af779eb49b555011618d4d0f0c6223533689e42fea3c12e",
+          "bytes": 745,
+          "archiveMember": "package/package.json",
+          "archiveSha256": "04a5a7b0aa8825d5eb7448031a6f11514ccd42d9d0c51d6c43e827eb27b36e97",
+          "archiveIntegrity": "sha512-FqNmlXKYrp5d3g7xEOMJb+6gXZE0fTssdyIQqYR4LbkifbNbS0hDylhNDOh8r6tCgLboHd8+mwgH2njgSYDpnQ==",
+          "contentKind": "license-declaration-or-source-metadata"
+        },
+        {
+          "path": "licenses/upstream/declarations/media-engine-2.0.0/UPSTREAM-README.md",
+          "sourceUrl": "https://registry.npmjs.org/media-engine/-/media-engine-2.0.0.tgz",
+          "revision": "npm-tarball-sha256:04a5a7b0aa8825d5eb7448031a6f11514ccd42d9d0c51d6c43e827eb27b36e97",
+          "sha256": "bcdde7e4597d4da57f1ace9d36115d970d9209a7179fa7e6c6b62298f289b01c",
+          "bytes": 2480,
+          "archiveMember": "package/README.md",
+          "archiveSha256": "04a5a7b0aa8825d5eb7448031a6f11514ccd42d9d0c51d6c43e827eb27b36e97",
+          "archiveIntegrity": "sha512-FqNmlXKYrp5d3g7xEOMJb+6gXZE0fTssdyIQqYR4LbkifbNbS0hDylhNDOh8r6tCgLboHd8+mwgH2njgSYDpnQ==",
+          "contentKind": "license-declaration-or-source-metadata"
+        },
+        {
+          "path": "licenses/standard/MIT.txt",
+          "sourceUrl": "https://raw.githubusercontent.com/spdx/license-list-data/31ba1a50e5397e00a304dbadc76531740e89ee48/text/MIT.txt",
+          "revision": "31ba1a50e5397e00a304dbadc76531740e89ee48",
+          "sha256": "b05785f9f18e6716bab63424b11454513b9943a222595b70411009202fc592b5",
+          "bytes": 1078,
+          "contentKind": "canonical-standard-license-text-not-an-original-package-copyright-notice"
+        }
+      ],
+      "classification": "declared-license-without-standalone-notice",
+      "interpretation": "Preserved SPDX/package declarations are upstream licensing evidence. The standard text is supplied separately and does not invent a package copyright, resolve conflicting declarations, or constitute a legal-clearance determination.",
+      "remainingGap": "Original standalone package notice unavailable; published license declaration and canonical license terms are preserved. No missing notice was fabricated from author metadata."
+    },
+    {
+      "ecosystem": "npm",
+      "name": "stackback",
+      "version": "0.0.2",
+      "reason": "The exact npm package includes a complete V8 Copyright 2012 BSD-style notice in formatstack.js, now preserved verbatim. Its package.json separately declares MIT, but no original full package-level MIT notice was found. The component notice does not resolve that package-level documentation gap.",
+      "evidenceFiles": [
+        {
+          "path": "licenses/upstream/declarations/stackback-0.0.2/UPSTREAM-package.json",
+          "sourceUrl": "https://registry.npmjs.org/stackback/-/stackback-0.0.2.tgz",
+          "revision": "npm-tarball-sha256:3e663c82d1ccf9748ed446b648ec21a7dd6c5895ecf4a95310a60a320ca55858",
+          "sha256": "4d984909b27d37d2f1a379b9cda7292a6e3a133c076df166d740a17514ac6e60",
+          "bytes": 485,
+          "archiveMember": "package/package.json",
+          "archiveSha256": "3e663c82d1ccf9748ed446b648ec21a7dd6c5895ecf4a95310a60a320ca55858",
+          "archiveIntegrity": "sha512-1XMJE5fQo1jGH6Y/7ebnwPOBEkIEnT4QF32d5R1+VXdXveM0IBMJt8zfaxX1P3QhVwrYe+576+jkANtSS2mBbw==",
+          "contentKind": "license-declaration-or-source-metadata"
+        },
+        {
+          "path": "licenses/upstream/declarations/stackback-0.0.2/UPSTREAM-README.md",
+          "sourceUrl": "https://registry.npmjs.org/stackback/-/stackback-0.0.2.tgz",
+          "revision": "npm-tarball-sha256:3e663c82d1ccf9748ed446b648ec21a7dd6c5895ecf4a95310a60a320ca55858",
+          "sha256": "0ac49857291755487f92130e4e2eec3e88b8012a7e42a6549763929ba4e6a4e5",
+          "bytes": 1900,
+          "archiveMember": "package/README.md",
+          "archiveSha256": "3e663c82d1ccf9748ed446b648ec21a7dd6c5895ecf4a95310a60a320ca55858",
+          "archiveIntegrity": "sha512-1XMJE5fQo1jGH6Y/7ebnwPOBEkIEnT4QF32d5R1+VXdXveM0IBMJt8zfaxX1P3QhVwrYe+576+jkANtSS2mBbw==",
+          "contentKind": "license-declaration-or-source-metadata"
+        },
+        {
+          "path": "licenses/standard/MIT.txt",
+          "sourceUrl": "https://raw.githubusercontent.com/spdx/license-list-data/31ba1a50e5397e00a304dbadc76531740e89ee48/text/MIT.txt",
+          "revision": "31ba1a50e5397e00a304dbadc76531740e89ee48",
+          "sha256": "b05785f9f18e6716bab63424b11454513b9943a222595b70411009202fc592b5",
+          "bytes": 1078,
+          "contentKind": "canonical-standard-license-text-not-an-original-package-copyright-notice"
+        },
+        {
+          "path": "licenses/upstream/stackback/0.0.2/COPYRIGHT-formatstack.txt",
+          "sourceUrl": "https://registry.npmjs.org/stackback/-/stackback-0.0.2.tgz",
+          "revision": "npm-tarball-sha256:3e663c82d1ccf9748ed446b648ec21a7dd6c5895ecf4a95310a60a320ca55858",
+          "sha256": "b154c4cabeeb587f5cc63a41d0551ae69504460762d189a72ae141558ec5d184",
+          "bytes": 1597,
+          "archiveMember": "package/formatstack.js",
+          "archiveSha256": "3e663c82d1ccf9748ed446b648ec21a7dd6c5895ecf4a95310a60a320ca55858",
+          "archiveIntegrity": "sha512-1XMJE5fQo1jGH6Y/7ebnwPOBEkIEnT4QF32d5R1+VXdXveM0IBMJt8zfaxX1P3QhVwrYe+576+jkANtSS2mBbw==",
+          "contentKind": "verbatim-component-license-header",
+          "sourceSha256": "3c1191bd7094a36098418e7d1606e2a49e7ee25b5ddee54b0b2514ea1a43b8a7",
+          "extraction": "Initial contiguous line-comment block copied verbatim, including original line endings; complete V8 copyright, conditions and disclaimer."
+        }
+      ],
+      "classification": "package-declaration-with-component-notices",
+      "interpretation": "Preserved SPDX/package declarations are upstream licensing evidence. The standard text is supplied separately and does not invent a package copyright, resolve conflicting declarations, or constitute a legal-clearance determination.",
+      "remainingGap": "Known original component notices are preserved. Original full package-level MIT notice unavailable; package declaration and canonical MIT text remain separately labeled."
+    }
+  ],
+  "reviewedAt": "2026-10-06",
+  "metadataInterpretationSource": "https://docs.npmjs.com/cli/v11/configuring-npm/package-json/#license"
+}
