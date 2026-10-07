@@ -2,9 +2,9 @@
 
 **Understand the trade-off before you rebalance.** Explore the market, compare ETF allocations, inspect the trades and risk behind a rebalance, and record the reason for your decision.
 
-[**Try the interactive demo →**](https://yz3639-gif.github.io/rebalance-review/) · [Quick start](#quick-start) · [Have an AI set it up](#have-an-ai-set-it-up) · [Methods](#what-is-calculated)
+[**Try the interactive demo →**](https://yz3639-gif.github.io/rebalance-review/?v=market-pulse-20261007) · [Quick start](#quick-start) · [Have an AI set it up](#have-an-ai-set-it-up) · [Methods](#what-is-calculated)
 
-[![Market Pulse: 50 synthetic ETF tickers, linked price chart and a self-financing decision lab](docs/media/market-pulse.png)](https://yz3639-gif.github.io/rebalance-review/)
+[![Market Pulse: 50 synthetic ETF tickers, linked price chart and a self-financing decision lab](docs/media/market-pulse.png)](https://yz3639-gif.github.io/rebalance-review/?v=market-pulse-20261007)
 
 The new **Market Pulse preview** combines a flowing 50-ETF **synthetic replay**, an editable **A→B transition lab**, and optional **TradingView market widgets** with provider-defined delays. Edit weights directly beside the chart, add tickers, or fill the remainder with cash. Trades and fees recalculate when both allocations total 100%. Synthetic prices are labeled throughout and never presented as observed quotes. Embedded market quotes are not read into our calculations. Run the connected local app for historical analysis with your own source data.
 
@@ -107,7 +107,7 @@ The [detailed AI setup guide](docs/AI_QUICKSTART.md) adds environment checks, ac
 
 **Inspect what drives the risk.** Contribution changes and the correlation matrix use the same selected covariance window.
 
-[![Risk view: signed risk contributions and an interactive correlation matrix](docs/media/terminal-risk.png)](https://yz3639-gif.github.io/rebalance-review/)
+[![Risk view: signed risk contributions and an interactive correlation matrix](docs/media/terminal-risk.png)](https://yz3639-gif.github.io/rebalance-review/?v=market-pulse-20261007)
 
 **See exactly what changes.** Compare original weights, inspect an ETF, and keep excluded positions visible.
 
